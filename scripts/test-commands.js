@@ -11,12 +11,15 @@ console.log(`Engram lvls: ${Object.keys(data.engrams).length}`);
 console.log(`Progress:    ${Object.keys(data.progression).length}`);
 console.log('');
 
-const commandsPath = path.join(__dirname, '../src/commands');
+const handlersPath = path.join(__dirname, '../src/handlers');
 const fs = require('node:fs');
-const commandFiles = fs.readdirSync(commandsPath).filter(f => f.endsWith('.js'));
-console.log(`Commands loaded: ${commandFiles.length}`);
-for (const file of commandFiles) {
-  console.log(`  - ${file}`);
+const handlerFiles = fs.readdirSync(handlersPath).filter(f => f.endsWith('.js'));
+console.log(`Handlers: ${handlerFiles.length}`);
+for (const file of handlerFiles) {
+  const h = require(path.join(handlersPath, file));
+  const hasAuto = typeof h.autocomplete === 'function';
+  const hasExec = typeof h.execute === 'function';
+  console.log(`  - ${file}  autocomplete=${hasAuto} execute=${hasExec}`);
 }
 console.log('');
 
@@ -80,6 +83,37 @@ async function run() {
     const breed = data.calculators.dinoBreeding;
     if (!breed) throw new Error('dinoBreeding missing');
     if (!breed['Rex']) throw new Error('Rex breeding data missing');
+  });
+
+  await test('flattenRecipe: Fabricator raw cost', async () => {
+    const { flattenRecipe } = require('../src/utils/flattenRecipe');
+    const raw = flattenRecipe('Fabricator', data.items);
+    if (raw['Metal Ore'] !== 60) throw new Error(`Expected 60 Metal Ore, got ${raw['Metal Ore']}`);
+    if (raw['Hide'] !== 15) throw new Error(`Expected 15 Hide, got ${raw['Hide']}`);
+  });
+
+  await test('helpers: calculateBreedData for Rex', async () => {
+    const { calculateBreedData } = require('../src/utils/helpers');
+    const dino = data.dinos['Rex'];
+    const result = calculateBreedData(dino, data.calculators);
+    if (!result.incubation) throw new Error('No incubation data');
+    if (!result.totalTime) throw new Error('No totalTime data');
+  });
+
+  await test('helpers: inferDinoUses for Rex', async () => {
+    const { inferDinoUses } = require('../src/utils/helpers');
+    const dino = data.dinos['Rex'];
+    const uses = inferDinoUses(dino);
+    if (!uses.includes('Combat')) throw new Error('Rex should have Combat use');
+    if (!uses.includes('Riding')) throw new Error('Rex should have Riding use');
+  });
+
+  await test('ark.js dispatcher: all handler groups loadable', async () => {
+    const ark = require('../src/commands/ark');
+    if (ark.data.name !== 'ark') throw new Error('Command name should be ark');
+    const optionCount = ark.data.options.length;
+    // 6 plain + 3 groups (suggest, calc, admin)
+    if (optionCount < 9) throw new Error(`Expected 9+ options, got ${optionCount}`);
   });
 
   console.log('\nAll tests passed!');
