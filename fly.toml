@@ -1,0 +1,26 @@
+app = "ark-bot"
+kill_signal = "SIGINT"
+kill_timeout = 5
+
+[env]
+  PORT = "8080"
+
+[experimental]
+  auto_rollback = true
+
+[[services]]
+  protocol = "tcp"
+  internal_port = 8080
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
+
+  [[services.concurrency]]
+    type = "requests"
+    hard_limit = 25
+    soft_limit = 20

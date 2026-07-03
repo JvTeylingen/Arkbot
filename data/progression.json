@@ -1,0 +1,152 @@
+{
+  "1": {
+    "objectives": ["Punch trees for Thatch and Wood", "Pick up stones for Stone and Flint", "Craft a Pick and Hatchet", "Kill Dodos for meat", "Make a Campfire and cook meat"],
+    "tameSuggestions": ["Dodo"],
+    "homeSuggestions": ["Beach (South)", "Beach (East)"]
+  },
+  "2": {
+    "objectives": ["Craft a Mortar and Pestle", "Make Narcotics from Narcoberries + Spoiled Meat", "Build a Thatch foundation and walls", "Craft a Basic Bedroll", "Create a Storage Box for materials"],
+    "tameSuggestions": ["Dodo", "Dilophosaur"],
+    "homeSuggestions": ["Beach (South)", "Beach (East)"]
+  },
+  "3": {
+    "objectives": ["Craft a Bow and Arrows", "Hunt smaller dinos for Hide", "Make Sparkpowder (Flint + Stone)", "Start collecting Narcoberries for taming"],
+    "tameSuggestions": ["Dilophosaur"],
+    "homeSuggestions": ["Beach (South)", "Beach (West)"]
+  },
+  "5": {
+    "objectives": ["Upgrade to a Wooden base", "Craft a Cooking Pot", "Make a Preserving Bin for longer food storage", "Build a Dinosaur Gateway for future taming pens"],
+    "tameSuggestions": ["Parasaur", "Trike"],
+    "homeSuggestions": ["Beach", "River Valley"]
+  },
+  "8": {
+    "objectives": ["Craft full Hide armor set", "Make a Waterskin for water runs", "Start building a dedicated taming pen", "Explore nearby biomes for resources"],
+    "tameSuggestions": ["Parasaur", "Trike", "Raptor", "Iguanodon"],
+    "homeSuggestions": ["River Valley", "Forest Edge"]
+  },
+  "10": {
+    "objectives": ["Tame a Parasaur for berry gathering and transport", "Craft a Smithy for advanced crafting", "Build a Forge to smelt Metal", "Craft a Pike for better damage", "Make Metal Arrows for the Crossbow"],
+    "tameSuggestions": ["Parasaur", "Trike", "Moschops"],
+    "homeSuggestions": ["River Valley", "Forest Edge", "Beach (West)"]
+  },
+  "12": {
+    "objectives": ["Craft a Parachute for safety", "Tame a Moschops for versatile gathering", "Make a Whip for taming utility", "Explore higher altitude areas for Crystal"],
+    "tameSuggestions": ["Moschops", "Iguanodon", "Equus"],
+    "homeSuggestions": ["Forest", "River Valley"]
+  },
+  "15": {
+    "objectives": ["Tame a Trike for berry and thatch gathering", "Craft a Refining Forge for faster metal processing", "Build a stone base for better defense", "Tame an Equus for a fast land mount", "Craft a Compass for navigation"],
+    "tameSuggestions": ["Trike", "Equus", "Iguanodon", "Raptor"],
+    "homeSuggestions": ["Forest", "River Valley", "Beach (North)"]
+  },
+  "18": {
+    "objectives": ["Tame a Raptor for combat and scouting", "Craft a Crossbow for better ranged damage and taming", "Build a Raptor Saddle (level 18)", "Start collecting Prime Meat for better taming", "Explore caves for Chitin"],
+    "tameSuggestions": ["Raptor", "Pteranodon", "Iguanodon"],
+    "homeSuggestions": ["Forest", "River Valley", "Coastal Cliffs"]
+  },
+  "20": {
+    "objectives": ["Tame a Pteranodon for aerial scouting", "Craft Gunpowder and Simple Bullets", "Craft a Simple Pistol for defense", "Build a Carbonemys turtle for early tank", "Start farming with Crop Plots"],
+    "tameSuggestions": ["Pteranodon", "Carbonemys", "Raptor", "Trike"],
+    "homeSuggestions": ["Coastal Cliffs", "River Valley", "Beach (North)"]
+  },
+  "22": {
+    "objectives": ["Tame a Stegosaurus for fiber and berry gathering", "Build a Stone Hatchframe for your base", "Set up irrigation for crops", "Start taming a Doedicurus for stone gathering"],
+    "tameSuggestions": ["Stegosaurus", "Doedicurus", "Pteranodon"],
+    "homeSuggestions": ["Forest", "Plains", "River Valley"]
+  },
+  "25": {
+    "objectives": ["Craft Metal tools (Pick, Hatchet, Shield)", "Craft a Longneck Rifle with Tranq Darts", "Tame an Ankylosaurus for metal/flint", "Start taming an Argentavis for transport", "Build a Metal foundation base section"],
+    "tameSuggestions": ["Ankylosaurus", "Doedicurus", "Argentavis"],
+    "homeSuggestions": ["Near Mountains", "Forest", "Coastal"]
+  },
+  "27": {
+    "objectives": ["Build full Metal base for protection", "Tame a Sabertooth for hide gathering", "Tame a Beelzebufo for cementing paste", "Tame a Pelagornis for oil gathering", "Make a Chainsaw for mass wood collection"],
+    "tameSuggestions": ["Sabertooth", "Beelzebufo", "Pelagornis", "Ankylosaurus"],
+    "homeSuggestions": ["Near Mountains", "Coastal", "Forest"]
+  },
+  "30": {
+    "objectives": ["Tame a Doedicurus for endless stone", "Tame a Mammoth for wood gathering", "Tame a Thorny Dragon (Scorched Earth)", "Build a full Metal base with reinforcements", "Create a dedicated taming area"],
+    "tameSuggestions": ["Doedicurus", "Mammoth", "Argentavis", "Sabertooth"],
+    "homeSuggestions": ["Near Mountains", "Forest", "Coastal Base"]
+  },
+  "32": {
+    "objectives": ["Tame an Argentavis for metal runs", "Tame a Carnotaurus as a guard dino", "Build a smelting facility with multiple forges", "Stockpile metal ingots for future crafting", "Explore underwater areas for Oil and Pearls"],
+    "tameSuggestions": ["Argentavis", "Carnotaurus", "Megalodon"],
+    "homeSuggestions": ["Mountains Base", "Coastal", "Near Resources"]
+  },
+  "35": {
+    "objectives": ["Build a Fabricator for advanced crafting", "Craft Flak Armor set", "Tame a Sarco for water travel", "Craft a Rocket Launcher for defense", "Start exploring underwater caves"],
+    "tameSuggestions": ["Sarco", "Carnotaurus", "Argentavis", "Megalodon"],
+    "homeSuggestions": ["Mountains Base", "Near Water", "Coastal Fortress"]
+  },
+  "37": {
+    "objectives": ["Tame a Baryonyx for swamp travel and fishing", "Craft an Industrial Grill for bulk cooking", "Explore the Swamp Cave", "Tame a Megalodon for ocean exploration", "Set up a Preserving Bin economy"],
+    "tameSuggestions": ["Baryonyx", "Megalodon", "Sarco", "Argentavis"],
+    "homeSuggestions": ["Mountains Base", "Coastal", "Near Ocean"]
+  },
+  "40": {
+    "objectives": ["Tame a Rex for boss fights and meat runs", "Tame an Arthropluera for cave clearing", "Craft a Pump-Action Shotgun", "Craft C4 Charges for mining", "Defeat the Broodmother"],
+    "tameSuggestions": ["Rex", "Arthropluera", "Baryonyx", "Yutyrannus"],
+    "homeSuggestions": ["Fortress Base", "Near Obelisk", "Central Base"]
+  },
+  "45": {
+    "objectives": ["Tame a Therizinosaur for fiber/wood gathering", "Craft Ghillie Armor for swamp/biosecurity", "Tame a Spino for combat and water mobility", "Craft a Sniper Rifle for hunting", "Defeat the Megapithecus"],
+    "tameSuggestions": ["Therizinosaur", "Spino", "Rex", "Tapejara"],
+    "homeSuggestions": ["Fortress Base", "Near Obelisk", "Central Base"]
+  },
+  "50": {
+    "objectives": ["Tame a Yutyrannus for boss buffs", "Build a Generator and electrical grid", "Craft a Vault for secure storage", "Set up Refrigerators for preserving", "Craft SCUBA for deep ocean exploration"],
+    "tameSuggestions": ["Yutyrannus", "Rex", "Quetzalcoatlus", "Mosasaurus"],
+    "homeSuggestions": ["Fortress Base", "Near Obelisk", "Underwater Base"]
+  },
+  "55": {
+    "objectives": ["Tame a Quetzalcoatlus for aerial metal base", "Tame a Mosasaurus for ocean dominance", "Craft an Industrial Forge for mass metal", "Craft an Air Conditioner for egg incubation", "Defeat the Dragon"],
+    "tameSuggestions": ["Quetzalcoatlus", "Mosasaurus", "Giganotosaurus", "Yutyrannus"],
+    "homeSuggestions": ["Sky Base (Quetz)", "Fortress Base", "Underwater Base"]
+  },
+  "60": {
+    "objectives": ["Tame a Giganotosaurus for ultimate power", "Craft a Tek Replicator (if Tek enabled)", "Craft full Riot Armor", "Defeat the Overseer", "Ascend to next difficulty"],
+    "tameSuggestions": ["Giganotosaurus", "Quetzalcoatlus", "Mosasaurus", "Yutyrannus"],
+    "homeSuggestions": ["Endgame Fortress", "Sky Base", "Tek Base"]
+  },
+  "65": {
+    "objectives": ["Craft Tek weapons and armor", "Start breeding super dinos", "Hunt for high-level wild tames", "Explore Extinction/Genesis content", "Build a Tek base"],
+    "tameSuggestions": ["Giganotosaurus", "Wyvern", "Mek (if available)"],
+    "homeSuggestions": ["Tek Base", "Sky Base", "Endgame Fortress"]
+  },
+  "70": {
+    "objectives": ["Tame and breed Manas (if available)", "Master Tek gameplay", "Collect all artifacts", "Defeat all bosses on Alpha", "Achieve final ascension"],
+    "tameSuggestions": ["Giganotosaurus", "Wyvern", "Mana", "Reaper"],
+    "homeSuggestions": ["Tek Base", "Endgame Fortress"]
+  },
+  "75": {
+    "objectives": ["Master mutation breeding", "Build a Tek underwater base", "Tame titans (if Extinction)", "Complete all explorer notes", "Achieve 100% completion"],
+    "tameSuggestions": ["Giganotosaurus", "Titan", "Wyvern"],
+    "homeSuggestions": ["Tek Base", "Underwater Tek Base"]
+  },
+  "80": {
+    "objectives": ["Defeat King Titan (Extinction)", "Master all boss fights on Alpha", "Hoard element for Tek", "Build the ultimate base", "Prepare for Genesis content"],
+    "tameSuggestions": ["Titan", "Giganotosaurus", "Mek"],
+    "homeSuggestions": ["Ultimate Base"]
+  },
+  "85": {
+    "objectives": ["Conquer Genesis missions", "Tame unique Genesis creatures", "Master Tek gear usage", "Explore all biomes thoroughly", "Help tribemates progress"],
+    "tameSuggestions": ["Giganotosaurus", "Wyvern", "Bloodstalker", "Mana"],
+    "homeSuggestions": ["Ultimate Base"]
+  },
+  "90": {
+    "objectives": ["Master Genesis Part 2", "Tame Voidwyrms", "Defeat Rockwell on Alpha", "Max out all Tek engrams", "Ascend fully"],
+    "tameSuggestions": ["Voidwyrm", "Astrodelphis", "Giganotosaurus"],
+    "homeSuggestions": ["Ultimate Base"]
+  },
+  "95": {
+    "objectives": ["Achieve max level", "Complete entire tech tree", "Build a showcase base", "Create museum of tames", "Guide newer players"],
+    "tameSuggestions": ["All available"],
+    "homeSuggestions": ["Anywhere"]
+  },
+  "100": {
+    "objectives": ["Congratulations on level 100!", "You have mastered ARK", "Build a monument to your journey", "Collect every item in the game", "Prepare for the next Ark"],
+    "tameSuggestions": ["All available"],
+    "homeSuggestions": ["Everywhere"]
+  }
+}

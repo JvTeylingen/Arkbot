@@ -1,0 +1,134 @@
+{
+  "breedingFormulas": {
+    "incubationMultiplier": 1.0,
+    "maturationMultiplier": 1.0,
+    "imprintInterval": "8h",
+    "mutationChance": 0.025,
+    "description": "Set multipliers lower than 1.0 for accelerated breeding (common on unofficial servers). Default is official rates."
+  },
+  "dinoBreeding": {
+    "Rex": {
+      "incubationMin": 120,
+      "maturationMin": 2640,
+      "imprintIntervalMin": 528,
+      "totalAdultMin": 2760
+    },
+    "Raptor": {
+      "incubationMin": 48,
+      "maturationMin": 1160,
+      "imprintIntervalMin": 232,
+      "totalAdultMin": 1208
+    },
+    "Pteranodon": {
+      "incubationMin": 40,
+      "maturationMin": 660,
+      "imprintIntervalMin": 132,
+      "totalAdultMin": 700
+    },
+    "Trike": {
+      "incubationMin": 54,
+      "maturationMin": 1320,
+      "imprintIntervalMin": 264,
+      "totalAdultMin": 1374
+    },
+    "Ankylosaurus": {
+      "incubationMin": 78,
+      "maturationMin": 1800,
+      "imprintIntervalMin": 360,
+      "totalAdultMin": 1878
+    },
+    "Argentavis": {
+      "incubationMin": 80,
+      "maturationMin": 1800,
+      "imprintIntervalMin": 360,
+      "totalAdultMin": 1880
+    },
+    "Carnotaurus": {
+      "incubationMin": 55,
+      "maturationMin": 1320,
+      "imprintIntervalMin": 264,
+      "totalAdultMin": 1375
+    },
+    "Spino": {
+      "incubationMin": 86,
+      "maturationMin": 2040,
+      "imprintIntervalMin": 408,
+      "totalAdultMin": 2126
+    },
+    "Therizinosaur": {
+      "incubationMin": 90,
+      "maturationMin": 2040,
+      "imprintIntervalMin": 408,
+      "totalAdultMin": 2130
+    },
+    "Mammoth": {
+      "incubationMin": 60,
+      "maturationMin": 1440,
+      "imprintIntervalMin": 288,
+      "totalAdultMin": 1500
+    },
+    "Doedicurus": {
+      "incubationMin": 64,
+      "maturationMin": 1536,
+      "imprintIntervalMin": 307,
+      "totalAdultMin": 1600
+    },
+    "Stegosaurus": {
+      "incubationMin": 70,
+      "maturationMin": 1680,
+      "imprintIntervalMin": 336,
+      "totalAdultMin": 1750
+    },
+    "Megalodon": {
+      "incubationMin": 66,
+      "maturationMin": 1680,
+      "imprintIntervalMin": 336,
+      "totalAdultMin": 1746
+    },
+    "Giganotosaurus": {
+      "incubationMin": 190,
+      "maturationMin": 4550,
+      "imprintIntervalMin": 910,
+      "totalAdultMin": 4740
+    },
+    "Yutyrannus": {
+      "incubationMin": 140,
+      "maturationMin": 3300,
+      "imprintIntervalMin": 660,
+      "totalAdultMin": 3440
+    },
+    "Quetzalcoatlus": {
+      "incubationMin": 140,
+      "maturationMin": 2700,
+      "imprintIntervalMin": 540,
+      "totalAdultMin": 2840
+    },
+    "Mosasaurus": {
+      "incubationMin": 145,
+      "maturationMin": 3440,
+      "imprintIntervalMin": 688,
+      "totalAdultMin": 3585
+    },
+    "Wyvern": {
+      "incubationMin": 150,
+      "maturationMin": 3600,
+      "imprintIntervalMin": 0,
+      "totalAdultMin": 3750
+    },
+    "Dodo": {
+      "incubationMin": 12,
+      "maturationMin": 210,
+      "imprintIntervalMin": 42,
+      "totalAdultMin": 222
+    }
+  },
+  "craftingFormulas": {
+    "description": "Base crafting time multiplier. Higher = slower crafting. Default official is 1.0.",
+    "craftingSpeedMultiplier": 1.0
+  },
+  "tamingFormulas": {
+    "description": "Taming speed multiplier. Higher = faster taming. Default official is 1.0.",
+    "tamingSpeedMultiplier": 1.0,
+    "kibbleEffectiveness": 0.5
+  }
+}
