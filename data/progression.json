@@ -110,32 +110,32 @@
     "homeSuggestions": ["Endgame Fortress", "Sky Base", "Tek Base"]
   },
   "65": {
-    "objectives": ["Craft Tek weapons and armor", "Start breeding super dinos", "Hunt for high-level wild tames", "Explore Extinction/Genesis content", "Build a Tek base"],
+    "objectives": ["Craft Tek weapons and armor", "Start breeding super dinos", "Hunt for high-level wild tames", "Build a Tek base"],
     "tameSuggestions": ["Giganotosaurus", "Wyvern", "Mek (if available)"],
     "homeSuggestions": ["Tek Base", "Sky Base", "Endgame Fortress"]
   },
   "70": {
-    "objectives": ["Tame and breed Manas (if available)", "Master Tek gameplay", "Collect all artifacts", "Defeat all bosses on Alpha", "Achieve final ascension"],
+    "objectives": ["Master Tek gameplay", "Collect all artifacts", "Defeat all bosses on Alpha", "Achieve final ascension"],
     "tameSuggestions": ["Giganotosaurus", "Wyvern", "Mana", "Reaper"],
     "homeSuggestions": ["Tek Base", "Endgame Fortress"]
   },
   "75": {
-    "objectives": ["Master mutation breeding", "Build a Tek underwater base", "Tame titans (if Extinction)", "Complete all explorer notes", "Achieve 100% completion"],
+    "objectives": ["Master mutation breeding", "Build a Tek underwater base", "Complete all explorer notes", "Achieve 100% completion"],
     "tameSuggestions": ["Giganotosaurus", "Titan", "Wyvern"],
     "homeSuggestions": ["Tek Base", "Underwater Tek Base"]
   },
   "80": {
-    "objectives": ["Defeat King Titan (Extinction)", "Master all boss fights on Alpha", "Hoard element for Tek", "Build the ultimate base", "Prepare for Genesis content"],
+    "objectives": ["Master all boss fights on Alpha", "Hoard element for Tek", "Build the ultimate base", "Prepare for Genesis content"],
     "tameSuggestions": ["Titan", "Giganotosaurus", "Mek"],
     "homeSuggestions": ["Ultimate Base"]
   },
   "85": {
-    "objectives": ["Conquer Genesis missions", "Tame unique Genesis creatures", "Master Tek gear usage", "Explore all biomes thoroughly", "Help tribemates progress"],
+    "objectives": ["Master Tek gear usage", "Explore all biomes thoroughly", "Help tribemates progress"],
     "tameSuggestions": ["Giganotosaurus", "Wyvern", "Bloodstalker", "Mana"],
     "homeSuggestions": ["Ultimate Base"]
   },
   "90": {
-    "objectives": ["Master Genesis Part 2", "Tame Voidwyrms", "Defeat Rockwell on Alpha", "Max out all Tek engrams", "Ascend fully"],
+    "objectives": ["Max out all Tek engrams", "Ascend fully"],
     "tameSuggestions": ["Voidwyrm", "Astrodelphis", "Giganotosaurus"],
     "homeSuggestions": ["Ultimate Base"]
   },

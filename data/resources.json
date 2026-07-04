@@ -2,10 +2,7 @@
   "Metal": {
     "name": "Metal", "category": "Metal",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Mountains", "Caves", "Hills"]},
-      {"map": "Ragnarok", "biomes": ["Mountains", "Desert", "Highlands"]},
-      {"map": "Crystal Isles", "biomes": ["Mountains", "Floating Islands"]},
-      {"map": "Valguero", "biomes": ["Mountains", "Chalk Hills"]}
+      {"map": "The Island", "biomes": ["Mountains", "Caves", "Hills"]}
     ],
     "bestGatheringTools": ["Metal Pick", "Ankylosaurus"],
     "weight": 1.0, "uses": ["Crafting", "Structures", "Weapons", "Tools"]
@@ -13,10 +10,7 @@
   "Stone": {
     "name": "Stone", "category": "Building",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Beaches", "Forests", "Mountains", "Plains"]},
-      {"map": "Ragnarok", "biomes": ["Everywhere"]},
-      {"map": "Crystal Isles", "biomes": ["Everywhere"]},
-      {"map": "Valguero", "biomes": ["Everywhere"]}
+      {"map": "The Island", "biomes": ["Beaches", "Forests", "Mountains", "Plains"]}
     ],
     "bestGatheringTools": ["Pick", "Doedicurus"],
     "weight": 0.5, "uses": ["Building", "Sparkpowder", "Tools"]
@@ -24,10 +18,7 @@
   "Wood": {
     "name": "Wood", "category": "Building",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Forests", "Jungle", "Redwoods"]},
-      {"map": "Ragnarok", "biomes": ["Forests", "Redwoods", "Highlands"]},
-      {"map": "Crystal Isles", "biomes": ["Forests", "Redwoods"]},
-      {"map": "Valguero", "biomes": ["Forests", "Redwoods", "Jungle"]}
+      {"map": "The Island", "biomes": ["Forests", "Jungle", "Redwoods"]}
     ],
     "bestGatheringTools": ["Hatchet", "Mammoth", "Chainsaw", "Therizinosaur"],
     "weight": 0.5, "uses": ["Building", "Fuel", "Tools"]
@@ -35,10 +26,7 @@
   "Thatch": {
     "name": "Thatch", "category": "Building",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Everywhere"]},
-      {"map": "Ragnarok", "biomes": ["Everywhere"]},
-      {"map": "Crystal Isles", "biomes": ["Everywhere"]},
-      {"map": "Valguero", "biomes": ["Everywhere"]}
+      {"map": "The Island", "biomes": ["Everywhere"]}
     ],
     "bestGatheringTools": ["Sickle", "Therizinosaur", "Any dino"],
     "weight": 0.1, "uses": ["Building", "Fuel", "Bedroll"]
@@ -46,10 +34,7 @@
   "Fiber": {
     "name": "Fiber", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Everywhere"]},
-      {"map": "Ragnarok", "biomes": ["Everywhere"]},
-      {"map": "Crystal Isles", "biomes": ["Everywhere"]},
-      {"map": "Valguero", "biomes": ["Everywhere"]}
+      {"map": "The Island", "biomes": ["Everywhere"]}
     ],
     "bestGatheringTools": ["Sickle", "Therizinosaur", "Hand", "Moschops"],
     "weight": 0.01, "uses": ["Cloth Armor", "Saddles", "Crafting"]
@@ -57,10 +42,7 @@
   "Flint": {
     "name": "Flint", "category": "Metal",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Beaches", "Mountains", "Rivers"]},
-      {"map": "Ragnarok", "biomes": ["Beaches", "Desert", "Mountains"]},
-      {"map": "Crystal Isles", "biomes": ["Beaches", "Mountains"]},
-      {"map": "Valguero", "biomes": ["Beaches", "Mountains"]}
+      {"map": "The Island", "biomes": ["Beaches", "Mountains", "Rivers"]}
     ],
     "bestGatheringTools": ["Pick", "Ankylosaurus"],
     "weight": 0.1, "uses": ["Sparkpowder", "Tools", "Weapons"]
@@ -68,10 +50,7 @@
   "Crystal": {
     "name": "Crystal", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Mountains", "Caves", "Snow"]},
-      {"map": "Ragnarok", "biomes": ["Mountains", "Caves", "Desert"]},
-      {"map": "Crystal Isles", "biomes": ["Mountains", "Floating Islands"]},
-      {"map": "Valguero", "biomes": ["Mountains", "Caves", "Chalk Hills"]}
+      {"map": "The Island", "biomes": ["Mountains", "Caves", "Snow"]}
     ],
     "bestGatheringTools": ["Pick", "Ankylosaurus", "Dunkleosteus"],
     "weight": 0.1, "uses": ["Electronics", "SCUBA", "GPS", "Artifacts"]
@@ -79,10 +58,7 @@
   "Hide": {
     "name": "Hide", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Everywhere — obtained from animals"]},
-      {"map": "Ragnarok", "biomes": ["Everywhere"]},
-      {"map": "Crystal Isles", "biomes": ["Everywhere"]},
-      {"map": "Valguero", "biomes": ["Everywhere"]}
+      {"map": "The Island", "biomes": ["Everywhere — obtained from animals"]}
     ],
     "bestGatheringTools": ["Hatchet", "Sabertooth", "Direwolf", "Therizinosaur"],
     "weight": 0.2, "uses": ["Saddles", "Armor", "Structures", "Crafting"]
@@ -90,10 +66,7 @@
   "Pelt": {
     "name": "Pelt", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Snow", "Mountains"]},
-      {"map": "Ragnarok", "biomes": ["Snow", "Highlands", "Mountains"]},
-      {"map": "Crystal Isles", "biomes": ["Snow", "Mountains"]},
-      {"map": "Valguero", "biomes": ["Snow", "Mountains", "Tundra"]}
+      {"map": "The Island", "biomes": ["Snow", "Mountains"]}
     ],
     "bestGatheringTools": ["Hatchet", "Sabertooth", "Direwolf", "Therizinosaur"],
     "weight": 0.2, "uses": ["Fur Armor", "Crafting"]
@@ -101,10 +74,7 @@
   "Keratin": {
     "name": "Keratin", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Everywhere — from turtles and rhinos"]},
-      {"map": "Ragnarok", "biomes": ["Everywhere"]},
-      {"map": "Crystal Isles", "biomes": ["Everywhere"]},
-      {"map": "Valguero", "biomes": ["Everywhere"]}
+      {"map": "The Island", "biomes": ["Everywhere — from turtles and rhinos"]}
     ],
     "bestGatheringTools": ["Hatchet", "Sabertooth", "Therizinosaur"],
     "weight": 0.1, "uses": ["Cementing Paste", "Crafting"]
@@ -112,10 +82,7 @@
   "Chitin": {
     "name": "Chitin", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Caves", "Beaches", "Swamp — from bugs"]},
-      {"map": "Ragnarok", "biomes": ["Caves", "Desert", "Swamp"]},
-      {"map": "Crystal Isles", "biomes": ["Caves", "Swamp"]},
-      {"map": "Valguero", "biomes": ["Caves", "Swamp", "Jungle"]}
+      {"map": "The Island", "biomes": ["Caves", "Beaches", "Swamp — from bugs"]}
     ],
     "bestGatheringTools": ["Hatchet", "Sabertooth", "Megatherium", "Therizinosaur"],
     "weight": 0.1, "uses": ["Cementing Paste", "Crafting"]
@@ -123,10 +90,7 @@
   "Cementing Paste": {
     "name": "Cementing Paste", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Beaver Dams", "Crafted"]},
-      {"map": "Ragnarok", "biomes": ["Beaver Dams", "Crafted"]},
-      {"map": "Crystal Isles", "biomes": ["Beaver Dams", "Crafted"]},
-      {"map": "Valguero", "biomes": ["Beaver Dams", "Crafted"]}
+      {"map": "The Island", "biomes": ["Beaver Dams", "Crafted"]}
     ],
     "bestGatheringTools": ["Harvest Beaver Dams", "Crafted: Chitin + Stone"],
     "weight": 0.3, "uses": ["Electronics", "Structures", "SCUBA", "Crafting"]
@@ -134,10 +98,7 @@
   "Oil": {
     "name": "Oil", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Snow", "Ocean", "Underwater Caves"]},
-      {"map": "Ragnarok", "biomes": ["Desert", "Ocean", "Highlands"]},
-      {"map": "Crystal Isles", "biomes": ["Ocean", "Underwater"]},
-      {"map": "Valguero", "biomes": ["Ocean", "Tundra", "Chalk Hills"]}
+      {"map": "The Island", "biomes": ["Snow", "Ocean", "Underwater Caves"]}
     ],
     "bestGatheringTools": ["Dunkleosteus", "Pick (nodes)", "Harvest dead whales"],
     "weight": 0.5, "uses": ["Gasoline", "Crafting", "Preserving"]
@@ -145,10 +106,7 @@
   "Obsidian": {
     "name": "Obsidian", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Snow", "Mountains", "Caves"]},
-      {"map": "Ragnarok", "biomes": ["Desert", "Mountains", "Volcano"]},
-      {"map": "Crystal Isles", "biomes": ["Mountains", "Floating Islands"]},
-      {"map": "Valguero", "biomes": ["Mountains", "Chalk Hills"]}
+      {"map": "The Island", "biomes": ["Snow", "Mountains", "Caves"]}
     ],
     "bestGatheringTools": ["Pick", "Ankylosaurus", "Dunkleosteus"],
     "weight": 0.5, "uses": ["Electronics", "Polymer", "Crafting"]
@@ -156,10 +114,7 @@
   "Polymer": {
     "name": "Polymer", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Crafted — Obsidian + Cementing Paste", "Killed Kairuku/Penguins"]},
-      {"map": "Ragnarok", "biomes": ["Crafted", "Penguin kills"]},
-      {"map": "Crystal Isles", "biomes": ["Crafted", "Penguin kills"]},
-      {"map": "Valguero", "biomes": ["Crafted", "Penguin kills"]}
+      {"map": "The Island", "biomes": ["Crafted — Obsidian + Cementing Paste", "Killed Kairuku/Penguins"]}
     ],
     "bestGatheringTools": ["Crafted in Fabricator", "Harvest Penguins"],
     "weight": 0.1, "uses": ["Electronics", "Guns", "Structures", "Saddles"]
@@ -167,10 +122,7 @@
   "Electronics": {
     "name": "Electronics", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Crafted in Fabricator"]},
-      {"map": "Ragnarok", "biomes": ["Crafted in Fabricator", "Underwater Caves"]},
-      {"map": "Crystal Isles", "biomes": ["Crafted in Fabricator"]},
-      {"map": "Valguero", "biomes": ["Crafted in Fabricator"]}
+      {"map": "The Island", "biomes": ["Crafted in Fabricator"]}
     ],
     "bestGatheringTools": ["Crafted: Metal Ingot + Crystal + Polymer"],
     "weight": 0.2, "uses": ["Guns", "Structures", "Electric", "GPS"]
@@ -178,10 +130,7 @@
   "Gasoline": {
     "name": "Gasoline", "category": "Consumable",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Crafted in Refining Forge"]},
-      {"map": "Ragnarok", "biomes": ["Crafted in Refining Forge"]},
-      {"map": "Crystal Isles", "biomes": ["Crafted in Refining Forge"]},
-      {"map": "Valguero", "biomes": ["Crafted in Refining Forge"]}
+      {"map": "The Island", "biomes": ["Crafted in Refining Forge"]}
     ],
     "bestGatheringTools": ["Refining Forge: Oil + Hide"],
     "weight": 0.5, "uses": ["Generator", "Motorboat", "Chainsaw"]
@@ -189,10 +138,7 @@
   "Silica Pearls": {
     "name": "Silica Pearls", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Ocean", "Underwater Caves", "Trilobites"]},
-      {"map": "Ragnarok", "biomes": ["Ocean", "Desert", "Waterfalls"]},
-      {"map": "Crystal Isles", "biomes": ["Ocean", "Underwater", "Beaches"]},
-      {"map": "Valguero", "biomes": ["Ocean", "Underwater", "Lake"]}
+      {"map": "The Island", "biomes": ["Ocean", "Underwater Caves", "Trilobites"]}
     ],
     "bestGatheringTools": ["Anglerfish", "Hand (underwater)", "Trilobite harvest"],
     "weight": 0.1, "uses": ["Electronics", "SCUBA", "Crafting"]
@@ -200,10 +146,7 @@
   "Sulfur": {
     "name": "Sulfur", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Caves"]},
-      {"map": "Ragnarok", "biomes": ["Desert", "Volcano", "Highlands"]},
-      {"map": "Crystal Isles", "biomes": ["Volcanic area"]},
-      {"map": "Valguero", "biomes": ["Caves", "Chalk Hills"]}
+      {"map": "The Island", "biomes": ["Caves"]}
     ],
     "bestGatheringTools": ["Pick", "Ankylosaurus"],
     "weight": 0.1, "uses": ["Gunpowder", "Explosives"]
@@ -211,10 +154,7 @@
   "Charcoal": {
     "name": "Charcoal", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Burning Wood in Campfire/Forge"]},
-      {"map": "Ragnarok", "biomes": ["Burning Wood"]},
-      {"map": "Crystal Isles", "biomes": ["Burning Wood"]},
-      {"map": "Valguero", "biomes": ["Burning Wood"]}
+      {"map": "The Island", "biomes": ["Burning Wood in Campfire/Forge"]}
     ],
     "bestGatheringTools": ["Burn Wood in Campfire or Forge"],
     "weight": 0.1, "uses": ["Gunpowder", "Dyes"]
@@ -222,10 +162,7 @@
   "Angler Gel": {
     "name": "Angler Gel", "category": "Resource",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Ocean — from Anglerfish"]},
-      {"map": "Ragnarok", "biomes": ["Ocean"]},
-      {"map": "Crystal Isles", "biomes": ["Ocean"]},
-      {"map": "Valguero", "biomes": ["Ocean"]}
+      {"map": "The Island", "biomes": ["Ocean — from Anglerfish"]}
     ],
     "bestGatheringTools": ["Harvest Anglerfish corpses"],
     "weight": 0.1, "uses": ["Fuel", "Lamp Oil", "Crafting"]
@@ -233,10 +170,7 @@
   "Honey": {
     "name": "Honey", "category": "Consumable",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Giant Bee Hives in Redwoods"]},
-      {"map": "Ragnarok", "biomes": ["Redwoods", "Highlands"]},
-      {"map": "Crystal Isles", "biomes": ["Redwoods", "Forests"]},
-      {"map": "Valguero", "biomes": ["Redwoods", "Forests"]}
+      {"map": "The Island", "biomes": ["Giant Bee Hives in Redwoods"]}
     ],
     "bestGatheringTools": ["Harvest Bee Hives (use Ghillie or Bear)", "Direbear"],
     "weight": 0.1, "uses": ["Sweet Vegetable Cake", "Healing", "Taming"]
@@ -244,10 +178,7 @@
   "Raw Meat": {
     "name": "Raw Meat", "category": "Food",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Everywhere — from dino kills"]},
-      {"map": "Ragnarok", "biomes": ["Everywhere"]},
-      {"map": "Crystal Isles", "biomes": ["Everywhere"]},
-      {"map": "Valguero", "biomes": ["Everywhere"]}
+      {"map": "The Island", "biomes": ["Everywhere — from dino kills"]}
     ],
     "bestGatheringTools": ["Hatchet", "Rex", "Carno", "Therizinosaur"],
     "weight": 0.1, "uses": ["Food", "Taming", "Spoiled Meat"]
@@ -255,10 +186,7 @@
   "Prime Meat": {
     "name": "Prime Meat", "category": "Food",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["From larger predators — Rex, Spino, Carno"]},
-      {"map": "Ragnarok", "biomes": ["From larger predators"]},
-      {"map": "Crystal Isles", "biomes": ["From larger predators"]},
-      {"map": "Valguero", "biomes": ["From larger predators"]}
+      {"map": "The Island", "biomes": ["From larger predators — Rex, Spino, Carno"]}
     ],
     "bestGatheringTools": ["Hatchet", "Rex", "Giga"],
     "weight": 0.1, "uses": ["Taming", "Food"]
@@ -266,10 +194,7 @@
   "Spoiled Meat": {
     "name": "Spoiled Meat", "category": "Consumable",
     "spawnLocations": [
-      {"map": "The Island", "biomes": ["Let Raw Meat spoil in inventory"]},
-      {"map": "Ragnarok", "biomes": ["Let Raw Meat spoil"]},
-      {"map": "Crystal Isles", "biomes": ["Let Raw Meat spoil"]},
-      {"map": "Valguero", "biomes": ["Let Raw Meat spoil"]}
+      {"map": "The Island", "biomes": ["Let Raw Meat spoil in inventory"]}
     ],
     "bestGatheringTools": ["Preserving Bin (slows spoilage)", "Let meat rot"],
     "weight": 0.1, "uses": ["Narcotics", "Taming"]

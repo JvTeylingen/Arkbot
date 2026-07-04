@@ -109,12 +109,6 @@
       "imprintIntervalMin": 688,
       "totalAdultMin": 3585
     },
-    "Wyvern": {
-      "incubationMin": 150,
-      "maturationMin": 3600,
-      "imprintIntervalMin": 0,
-      "totalAdultMin": 3750
-    },
     "Dodo": {
       "incubationMin": 12,
       "maturationMin": 210,
