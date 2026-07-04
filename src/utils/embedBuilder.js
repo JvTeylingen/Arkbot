@@ -1,7 +1,7 @@
 const { EmbedBuilder } = require('discord.js');
 
 function buildDinoEmbed(dino) {
-  return new EmbedBuilder()
+  const embed = new EmbedBuilder()
     .setColor(0x0099FF)
     .setTitle(dino.name)
     .addFields(
@@ -12,10 +12,15 @@ function buildDinoEmbed(dino) {
       { name: 'Preferred Kibble', value: dino.taming.preferredKibble ?? 'None', inline: true },
       { name: 'Saddle Level', value: dino.saddleLevel?.toString() ?? 'N/A', inline: true },
       { name: 'Drops', value: dino.drops.join(', '), inline: false },
+    );
+
+  if (dino.spawnLocations) {
+    embed.addFields(
       { name: 'Spawn Locations', value: formatSpawns(dino.spawnLocations), inline: false },
-    )
-    .setTimestamp()
-    .setFooter({ text: 'ARK: Survival Evolved' });
+    );
+  }
+
+  return embed.setTimestamp().setFooter({ text: 'ARK: Survival Evolved' });
 }
 
 function buildResourceEmbed(resource) {
@@ -181,6 +186,7 @@ function buildRawCraftEmbed(item, directRecipe, rawCosts) {
 }
 
 function formatSpawns(spawns) {
+  if (!spawns || !spawns.length) return 'N/A';
   return spawns.map(s => `**${s.map}**: ${s.biomes.join(', ')}`).join('\n');
 }
 
