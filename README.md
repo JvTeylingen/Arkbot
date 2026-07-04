@@ -53,7 +53,6 @@ npm start
 ├── data/                  # Static JSON data files
 ├── companion/             # Python log watcher script
 ├── scripts/               # Utility scripts (validate-data, deploy)
-├── docs/                  # Build phase documentation
 ├── .env.example
 ├── package.json
 └── README.md
@@ -76,7 +75,7 @@ Run `npm run validate-data` to check data integrity.
 
 ## Companion Log Watcher
 
-The `companion/` directory contains a small Python script that tails ARK server log files and forwards death events to the bot via webhook, enabling automatic death announcements without FTP. See [`docs/09-companion-log-watcher.md`](docs/09-companion-log-watcher.md) for setup.
+The `companion/` directory contains a small Python script that tails ARK server log files and forwards death events to the bot via webhook, enabling automatic death announcements without FTP.
 
 ## Deployment
 
@@ -86,11 +85,6 @@ The `companion/` directory contains a small Python script that tails ARK server 
 | **Fly.io** | `fly launch --now && fly secrets set DISCORD_TOKEN=... && fly deploy` |
 | **Railway** | `railway login && railway init && railway up` — set `DISCORD_TOKEN` in dashboard |
 
-See [`docs/10-deployment.md`](docs/10-deployment.md) for detailed guides.
-
-## Documentation
-
-The [`docs/`](docs/) folder contains the full build roadmap with step-by-step guides for every component of the bot.
 
 ## License
 
