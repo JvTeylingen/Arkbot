@@ -17,6 +17,8 @@ module.exports = {
     .setName('ark')
     .setDescription('ARK: Survival Evolved knowledge commands')
     .addSubcommand(sub =>
+      sub.setName('help').setDescription('Show all available commands'))
+    .addSubcommand(sub =>
       sub.setName('dino').setDescription('Look up a dinosaur or creature')
         .addStringOption(opt => opt.setName('name').setDescription('Dino name').setAutocomplete(true).setRequired(true)))
     .addSubcommand(sub =>
@@ -66,6 +68,55 @@ module.exports = {
   },
 
   async execute(interaction, data) {
+    const sub = interaction.options.getSubcommand();
+
+    if (sub === 'help') {
+      const { EmbedBuilder } = require('discord.js');
+      const embed = new EmbedBuilder()
+        .setColor(0x5865F2)
+        .setTitle('ARK Bot Commands')
+        .setDescription('All commands are grouped under `/ark`.')
+        .addFields(
+          {
+            name: 'Core Lookups',
+            value:
+              '`/ark dino <name>` — Dino stats, taming, drops, spawn locations\n' +
+              '`/ark resource <name>` — Resource spawns, gathering tools, uses\n' +
+              '`/ark item <name>` — Item crafting recipes and unlock levels\n' +
+              '`/ark kibble <dino>` — Preferred kibble and effectiveness bonus\n' +
+              '`/ark engram <level>` — Engrams unlocked at a given level\n' +
+              '`/ark next <level>` — Progression objectives and suggestions',
+          },
+          {
+            name: 'Calculations',
+            value:
+              '`/ark calc breed <dino>` — Incubation, maturation, imprint timings\n' +
+              '`/ark calc craft <item>` — Crafting ingredients and station\n' +
+              '`/ark calc raw <item>` — Raw material cost breakdown',
+          },
+          {
+            name: 'Suggestions',
+            value:
+              '`/ark suggest tame <level>` — Recommended dinos to tame\n' +
+              '`/ark suggest home <level>` — Recommended base locations',
+          },
+          {
+            name: 'Admin (ManageGuild)',
+            value:
+              '`/ark admin setup` — Initialize bot configuration\n' +
+              '`/ark admin status` — Bot health and uptime\n' +
+              '`/ark admin backup` — Export data backup\n' +
+              '`/ark admin deaths-enable` — Enable death feed\n' +
+              '`/ark admin deaths-disable` — Disable death feed\n' +
+              '`/ark admin logs-connect` — Connect ARK server log watcher',
+          },
+        )
+        .setTimestamp()
+        .setFooter({ text: 'ARK: Survival Evolved' });
+
+      return interaction.reply({ embeds: [embed] });
+    }
+
     const group = interaction.options.getSubcommandGroup() || 'core';
     const handler = handlers[group];
     if (handler) return handler.execute(interaction, data);
