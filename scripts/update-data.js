@@ -2,7 +2,7 @@ const https = require('node:https');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const DATA_REPO_URL = process.env.DATA_REPO_URL || 'https://raw.githubusercontent.com/ark-bot/data/main';
+const DATA_REPO_URL = process.env.DATA_REPO_URL || 'https://raw.githubusercontent.com/JvTeylingen/Arkbot/master/data';
 
 const FILES = [
   'dinos.json',
