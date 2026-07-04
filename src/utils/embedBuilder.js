@@ -12,6 +12,7 @@ function buildDinoEmbed(dino) {
       { name: 'Preferred Kibble', value: dino.taming.preferredKibble ?? 'None', inline: true },
       { name: 'Saddle Level', value: dino.saddleLevel?.toString() ?? 'N/A', inline: true },
       { name: 'Drops', value: dino.drops.join(', '), inline: false },
+      { name: 'Spawn Locations', value: formatSpawns(dino.spawnLocations), inline: false },
     )
     .setTimestamp()
     .setFooter({ text: 'ARK: Survival Evolved' });

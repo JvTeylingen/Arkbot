@@ -5,7 +5,10 @@
     "baseStats": { "health": 50, "stamina": 100, "oxygen": 150, "food": 450, "weight": 50, "meleeDamage": 5 },
     "taming": { "method": "knockout", "torpor": 50, "food": ["Mejoberry"], "preferredKibble": null, "kibbleBonus": 0 },
     "drops": ["Raw Meat", "Hide", "Feather"],
-    "saddleLevel": null, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": null, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Grassland"]}
+    ]
   },
   "Dilophosaur": {
     "name": "Dilophosaur",
@@ -13,7 +16,10 @@
     "baseStats": { "health": 150, "stamina": 180, "oxygen": 150, "food": 1050, "weight": 130, "meleeDamage": 20 },
     "taming": { "method": "knockout", "torpor": 75, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": null, "temperament": "Territorial", "spawnMaps": ["The Island"]
+    "saddleLevel": null, "temperament": "Territorial",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Jungle", "Grassland"]}
+    ]
   },
   "Parasaur": {
     "name": "Parasaur",
@@ -21,7 +27,10 @@
     "baseStats": { "health": 325, "stamina": 250, "oxygen": 150, "food": 1650, "weight": 350, "meleeDamage": 15 },
     "taming": { "method": "knockout", "torpor": 175, "food": ["Mejoberry", "Azulberry"], "preferredKibble": null, "kibbleBonus": 0 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 10, "temperament": "Flighty", "spawnMaps": ["The Island"]
+    "saddleLevel": 10, "temperament": "Flighty",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Grassland", "Forest"]}
+    ]
   },
   "Trike": {
     "name": "Triceratops",
@@ -29,7 +38,10 @@
     "baseStats": { "health": 750, "stamina": 300, "oxygen": 150, "food": 3000, "weight": 400, "meleeDamage": 30 },
     "taming": { "method": "knockout", "torpor": 400, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Keratin"],
-    "saddleLevel": 16, "temperament": "Territorial", "spawnMaps": ["The Island"]
+    "saddleLevel": 16, "temperament": "Territorial",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Grassland", "Forest"]}
+    ]
   },
   "Raptor": {
     "name": "Raptor",
@@ -37,7 +49,10 @@
     "baseStats": { "health": 350, "stamina": 250, "oxygen": 150, "food": 1200, "weight": 200, "meleeDamage": 40 },
     "taming": { "method": "knockout", "torpor": 180, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 18, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 18, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Grassland", "Forest", "Jungle"]}
+    ]
   },
   "Pteranodon": {
     "name": "Pteranodon",
@@ -45,7 +60,10 @@
     "baseStats": { "health": 210, "stamina": 200, "oxygen": 150, "food": 900, "weight": 120, "meleeDamage": 15 },
     "taming": { "method": "knockout", "torpor": 120, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 24, "temperament": "Flighty", "spawnMaps": ["The Island"]
+    "saddleLevel": 24, "temperament": "Flighty",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Grassland"]}
+    ]
   },
   "Carbonemys": {
     "name": "Carbonemys",
@@ -53,7 +71,10 @@
     "baseStats": { "health": 550, "stamina": 100, "oxygen": 9999, "food": 1500, "weight": 350, "meleeDamage": 15 },
     "taming": { "method": "knockout", "torpor": 350, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Keratin"],
-    "saddleLevel": 20, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 20, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "River"]}
+    ]
   },
   "Ankylosaurus": {
     "name": "Ankylosaurus",
@@ -61,7 +82,10 @@
     "baseStats": { "health": 900, "stamina": 200, "oxygen": 150, "food": 3000, "weight": 400, "meleeDamage": 40 },
     "taming": { "method": "knockout", "torpor": 550, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 27, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 27, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Mountain", "Forest"]}
+    ]
   },
   "Stegosaurus": {
     "name": "Stegosaurus",
@@ -69,7 +93,10 @@
     "baseStats": { "health": 750, "stamina": 260, "oxygen": 150, "food": 3000, "weight": 400, "meleeDamage": 25 },
     "taming": { "method": "knockout", "torpor": 575, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 22, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 22, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Grassland", "Forest", "Mountain"]}
+    ]
   },
   "Doedicurus": {
     "name": "Doedicurus",
@@ -77,7 +104,10 @@
     "baseStats": { "health": 800, "stamina": 200, "oxygen": 150, "food": 3000, "weight": 350, "meleeDamage": 20 },
     "taming": { "method": "knockout", "torpor": 450, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 30, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 30, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Mountain", "Forest"]}
+    ]
   },
   "Argentavis": {
     "name": "Argentavis",
@@ -85,7 +115,10 @@
     "baseStats": { "health": 365, "stamina": 300, "oxygen": 150, "food": 1350, "weight": 300, "meleeDamage": 25 },
     "taming": { "method": "knockout", "torpor": 300, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Feather"],
-    "saddleLevel": 32, "temperament": "Territorial", "spawnMaps": ["The Island"]
+    "saddleLevel": 32, "temperament": "Territorial",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Mountain", "Snow"]}
+    ]
   },
   "Mammoth": {
     "name": "Woolly Mammoth",
@@ -93,7 +126,10 @@
     "baseStats": { "health": 750, "stamina": 500, "oxygen": 150, "food": 3000, "weight": 500, "meleeDamage": 35 },
     "taming": { "method": "knockout", "torpor": 700, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Pelt"],
-    "saddleLevel": 30, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 30, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Snow", "Forest"]}
+    ]
   },
   "Carnotaurus": {
     "name": "Carnotaurus",
@@ -101,7 +137,10 @@
     "baseStats": { "health": 425, "stamina": 350, "oxygen": 150, "food": 3000, "weight": 350, "meleeDamage": 45 },
     "taming": { "method": "knockout", "torpor": 350, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 35, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 35, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Grassland", "Beach", "Forest"]}
+    ]
   },
   "Rex": {
     "name": "Tyrannosaurus Rex",
@@ -109,7 +148,10 @@
     "baseStats": { "health": 1100, "stamina": 420, "oxygen": 150, "food": 4000, "weight": 500, "meleeDamage": 100 },
     "taming": { "method": "knockout", "torpor": 2500, "food": ["Raw Meat", "Prime Meat", "Kibble"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 40, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 40, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Grassland", "Mountain", "Snow"]}
+    ]
   },
   "Spino": {
     "name": "Spinosaurus",
@@ -117,7 +159,10 @@
     "baseStats": { "health": 825, "stamina": 480, "oxygen": 150, "food": 4200, "weight": 450, "meleeDamage": 50 },
     "taming": { "method": "knockout", "torpor": 1200, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 47, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 47, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["River", "Swamp"]}
+    ]
   },
   "Sabertooth": {
     "name": "Sabertooth Salmon",
@@ -125,7 +170,10 @@
     "baseStats": { "health": 350, "stamina": 300, "oxygen": 150, "food": 1500, "weight": 200, "meleeDamage": 45 },
     "taming": { "method": "knockout", "torpor": 300, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Pelt"],
-    "saddleLevel": 30, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 30, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Mountain", "Snow"]}
+    ]
   },
   "Direwolf": {
     "name": "Direwolf",
@@ -133,7 +181,10 @@
     "baseStats": { "health": 270, "stamina": 200, "oxygen": 150, "food": 1200, "weight": 150, "meleeDamage": 38 },
     "taming": { "method": "knockout", "torpor": 250, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Pelt"],
-    "saddleLevel": 28, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 28, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Snow", "Mountain"]}
+    ]
   },
   "Sarco": {
     "name": "Sarcosuchus",
@@ -141,7 +192,10 @@
     "baseStats": { "health": 600, "stamina": 400, "oxygen": 9999, "food": 2400, "weight": 360, "meleeDamage": 35 },
     "taming": { "method": "knockout", "torpor": 600, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 35, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 35, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["River", "Swamp", "Beach"]}
+    ]
   },
   "Baryonyx": {
     "name": "Baryonyx",
@@ -149,7 +203,10 @@
     "baseStats": { "health": 500, "stamina": 350, "oxygen": 150, "food": 2800, "weight": 300, "meleeDamage": 30 },
     "taming": { "method": "knockout", "torpor": 450, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 38, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 38, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["River", "Swamp"]}
+    ]
   },
   "Therizinosaur": {
     "name": "Therizinosaur",
@@ -157,7 +214,10 @@
     "baseStats": { "health": 900, "stamina": 400, "oxygen": 150, "food": 4200, "weight": 450, "meleeDamage": 35 },
     "taming": { "method": "knockout", "torpor": 1000, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Exceptional Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Pelt"],
-    "saddleLevel": 45, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 45, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Redwood Forest", "Jungle"]}
+    ]
   },
   "Megalodon": {
     "name": "Megalodon",
@@ -165,7 +225,10 @@
     "baseStats": { "health": 600, "stamina": 800, "oxygen": 9999, "food": 3150, "weight": 400, "meleeDamage": 50 },
     "taming": { "method": "knockout", "torpor": 700, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 37, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 37, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Ocean"]}
+    ]
   },
   "Dunkleosteus": {
     "name": "Dunkleosteus",
@@ -173,7 +236,10 @@
     "baseStats": { "health": 1000, "stamina": 200, "oxygen": 9999, "food": 2800, "weight": 600, "meleeDamage": 35 },
     "taming": { "method": "knockout", "torpor": 1000, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 45, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 45, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Ocean"]}
+    ]
   },
   "Tapejara": {
     "name": "Tapejara",
@@ -181,7 +247,10 @@
     "baseStats": { "health": 350, "stamina": 300, "oxygen": 150, "food": 1200, "weight": 250, "meleeDamage": 18 },
     "taming": { "method": "knockout", "torpor": 200, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 50, "temperament": "Flighty", "spawnMaps": ["The Island"]
+    "saddleLevel": 50, "temperament": "Flighty",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Mountain", "Forest"]}
+    ]
   },
   "Beelzebufo": {
     "name": "Beelzebufo",
@@ -189,7 +258,10 @@
     "baseStats": { "health": 280, "stamina": 400, "oxygen": 9999, "food": 1200, "weight": 180, "meleeDamage": 22 },
     "taming": { "method": "knockout", "torpor": 150, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 30, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 30, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Swamp"]}
+    ]
   },
   "Pelagornis": {
     "name": "Pelagornis",
@@ -197,7 +269,10 @@
     "baseStats": { "health": 250, "stamina": 200, "oxygen": 150, "food": 900, "weight": 180, "meleeDamage": 15 },
     "taming": { "method": "knockout", "torpor": 100, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Feather"],
-    "saddleLevel": 28, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 28, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Ocean"]}
+    ]
   },
   "Arthropluera": {
     "name": "Arthropluera",
@@ -205,7 +280,10 @@
     "baseStats": { "health": 800, "stamina": 100, "oxygen": 150, "food": 1050, "weight": 250, "meleeDamage": 40 },
     "taming": { "method": "knockout", "torpor": 550, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Chitin"],
-    "saddleLevel": 40, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 40, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Cave", "Mountain"]}
+    ]
   },
   "Yutyrannus": {
     "name": "Yutyrannus",
@@ -213,7 +291,10 @@
     "baseStats": { "health": 1200, "stamina": 500, "oxygen": 150, "food": 5000, "weight": 550, "meleeDamage": 100 },
     "taming": { "method": "knockout", "torpor": 2000, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Exceptional Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Pelt"],
-    "saddleLevel": 55, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 55, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Snow"]}
+    ]
   },
   "Daedon": {
     "name": "Daedon",
@@ -221,7 +302,10 @@
     "baseStats": { "health": 500, "stamina": 200, "oxygen": 150, "food": 5000, "weight": 300, "meleeDamage": 15 },
     "taming": { "method": "passive", "torpor": 0, "food": ["Raw Meat", "Cooked Meat"], "preferredKibble": null, "kibbleBonus": 0 },
     "drops": ["Raw Meat", "Hide", "Pelt"],
-    "saddleLevel": 50, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 50, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Snow", "Mountain"]}
+    ]
   },
   "Megatherium": {
     "name": "Megatherium",
@@ -229,7 +313,10 @@
     "baseStats": { "health": 650, "stamina": 400, "oxygen": 150, "food": 3500, "weight": 400, "meleeDamage": 40 },
     "taming": { "method": "knockout", "torpor": 600, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Superior Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Pelt"],
-    "saddleLevel": 40, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 40, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Jungle", "Cave"]}
+    ]
   },
   "Giganotosaurus": {
     "name": "Giganotosaurus",
@@ -237,7 +324,10 @@
     "baseStats": { "health": 2400, "stamina": 350, "oxygen": 150, "food": 7000, "weight": 700, "meleeDamage": 120 },
     "taming": { "method": "knockout", "torpor": 5000, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Exceptional Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Pelt"],
-    "saddleLevel": 60, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 60, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Mountain"]}
+    ]
   },
   "Mosasaurus": {
     "name": "Mosasaurus",
@@ -245,7 +335,10 @@
     "baseStats": { "health": 1400, "stamina": 600, "oxygen": 9999, "food": 4200, "weight": 600, "meleeDamage": 80 },
     "taming": { "method": "knockout", "torpor": 2500, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Exceptional Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 55, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 55, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Ocean"]}
+    ]
   },
   "Plesiosaur": {
     "name": "Plesiosaur",
@@ -253,7 +346,10 @@
     "baseStats": { "health": 1100, "stamina": 500, "oxygen": 9999, "food": 3200, "weight": 500, "meleeDamage": 55 },
     "taming": { "method": "knockout", "torpor": 2000, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Exceptional Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 45, "temperament": "Aggressive", "spawnMaps": ["The Island"]
+    "saddleLevel": 45, "temperament": "Aggressive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Ocean"]}
+    ]
   },
   "Quetzalcoatlus": {
     "name": "Quetzalcoatlus",
@@ -261,7 +357,10 @@
     "baseStats": { "health": 800, "stamina": 400, "oxygen": 150, "food": 2500, "weight": 600, "meleeDamage": 20 },
     "taming": { "method": "knockout", "torpor": 750, "food": ["Raw Meat", "Prime Meat"], "preferredKibble": "Exceptional Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide", "Feather"],
-    "saddleLevel": 55, "temperament": "Flighty", "spawnMaps": ["The Island"]
+    "saddleLevel": 55, "temperament": "Flighty",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Mountain", "Grassland"]}
+    ]
   },
   "Moschops": {
     "name": "Moschops",
@@ -269,7 +368,10 @@
     "baseStats": { "health": 350, "stamina": 200, "oxygen": 150, "food": 1800, "weight": 250, "meleeDamage": 12 },
     "taming": { "method": "passive", "torpor": 0, "food": ["Mejoberry", "Sweet Vegetable Cake"], "preferredKibble": null, "kibbleBonus": 0 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 12, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 12, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Grassland", "Jungle"]}
+    ]
   },
   "Iguanodon": {
     "name": "Iguanodon",
@@ -277,7 +379,10 @@
     "baseStats": { "health": 400, "stamina": 350, "oxygen": 150, "food": 2000, "weight": 300, "meleeDamage": 20 },
     "taming": { "method": "knockout", "torpor": 250, "food": ["Mejoberry", "Azulberry"], "preferredKibble": "Basic Kibble", "kibbleBonus": 0.5 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 20, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 20, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Beach", "Grassland", "River"]}
+    ]
   },
   "Equus": {
     "name": "Equus",
@@ -285,6 +390,9 @@
     "baseStats": { "health": 375, "stamina": 500, "oxygen": 150, "food": 1800, "weight": 280, "meleeDamage": 18 },
     "taming": { "method": "passive", "torpor": 0, "food": ["Rockarrot", "Mejoberry"], "preferredKibble": null, "kibbleBonus": 0 },
     "drops": ["Raw Meat", "Hide"],
-    "saddleLevel": 15, "temperament": "Passive", "spawnMaps": ["The Island"]
+    "saddleLevel": 15, "temperament": "Passive",
+    "spawnLocations": [
+      {"map": "The Island", "biomes": ["Grassland"]}
+    ]
   }
 }
