@@ -5,3 +5,4 @@ node_modules
 README.md
 docs/
 companion/
+pnpm-lock.yaml
