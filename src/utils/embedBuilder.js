@@ -185,6 +185,31 @@ function buildRawCraftEmbed(item, directRecipe, rawCosts) {
     .setFooter({ text: 'ARK: Survival Evolved' });
 }
 
+function buildGatherEmbed(resource, dinoNames, toolNames) {
+  const embed = new EmbedBuilder()
+    .setColor(0x00CC88)
+    .setTitle(`${resource.name} — Best Gathering Methods`);
+
+  if (dinoNames.length) {
+    embed.addFields({ name: 'Recommended Dinosaurs', value: dinoNames.join(', '), inline: false });
+  }
+  if (toolNames.length) {
+    embed.addFields({ name: 'Best Tools', value: toolNames.join(', '), inline: false });
+  }
+
+  embed.addFields(
+    { name: 'Category', value: resource.category, inline: true },
+    { name: 'Weight', value: `${resource.weight} kg`, inline: true },
+    { name: 'Uses', value: resource.uses.join(', '), inline: false },
+  );
+
+  if (resource.spawnLocations) {
+    embed.addFields({ name: 'Spawn Locations', value: formatSpawns(resource.spawnLocations), inline: false });
+  }
+
+  return embed.setTimestamp().setFooter({ text: 'ARK: Survival Evolved' });
+}
+
 function formatSpawns(spawns) {
   if (!spawns || !spawns.length) return 'N/A';
   return spawns.map(s => `**${s.map}**: ${s.biomes.join(', ')}`).join('\n');
@@ -202,4 +227,5 @@ module.exports = {
   buildBreedEmbed,
   buildCraftEmbed,
   buildRawCraftEmbed,
+  buildGatherEmbed,
 };

@@ -10,6 +10,7 @@ A lightweight Discord bot for **ARK: Survival Evolved** game knowledge, built wi
 | `/ark resource <name>` | Spawn locations, best gathering tools, weight, uses |
 | `/ark item <name>` | Crafting recipe, blueprint path, unlock level |
 | `/ark kibble <dino>` | Preferred kibble type, recipe, taming effectiveness |
+| `/ark gather <resource>` | Best dinosaurs and tools for gathering a resource |
 | `/ark engram <level>` | All engrams unlocked at a given player level |
 | `/ark next <level>` | Progression checklist with objectives, taming targets, base priorities |
 | `/ark calc breed <dino>` | Incubation, maturation, imprint intervals, mutation chances |

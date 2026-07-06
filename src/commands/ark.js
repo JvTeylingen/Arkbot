@@ -31,6 +31,9 @@ module.exports = {
       sub.setName('kibble').setDescription('Get kibble information for a dino')
         .addStringOption(opt => opt.setName('dino').setDescription('Dino name').setAutocomplete(true).setRequired(true)))
     .addSubcommand(sub =>
+      sub.setName('gather').setDescription('Best dinos/tools for gathering a resource')
+        .addStringOption(opt => opt.setName('resource').setDescription('Resource name').setAutocomplete(true).setRequired(true)))
+    .addSubcommand(sub =>
       sub.setName('engram').setDescription('List all engrams unlocked at a level')
         .addIntegerOption(opt => opt.setName('level').setDescription('Player level (1-100)').setMinValue(1).setMaxValue(100).setRequired(true)))
     .addSubcommand(sub =>
@@ -84,6 +87,7 @@ module.exports = {
               '`/ark resource <name>` — Resource spawns, gathering tools, uses\n' +
               '`/ark item <name>` — Item crafting recipes and unlock levels\n' +
               '`/ark kibble <dino>` — Preferred kibble and effectiveness bonus\n' +
+              '`/ark gather <resource>` — Best dinos and tools for gathering\n' +
               '`/ark engram <level>` — Engrams unlocked at a given level\n' +
               '`/ark next <level>` — Progression objectives and suggestions',
           },

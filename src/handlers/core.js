@@ -1,6 +1,6 @@
 const {
   buildDinoEmbed, buildResourceEmbed, buildItemEmbed, buildKibbleEmbed,
-  buildEngramEmbed, buildProgressionEmbed,
+  buildEngramEmbed, buildProgressionEmbed, buildGatherEmbed,
 } = require('../utils/embedBuilder');
 
 const autocompleteSources = {
@@ -8,6 +8,7 @@ const autocompleteSources = {
   kibble: 'dinos',
   resource: 'resources',
   item: 'items',
+  gather: 'resources',
 };
 
 async function autocomplete(interaction, data) {
@@ -48,6 +49,21 @@ async function execute(interaction, data) {
       const dino = data.dinos[name];
       if (!dino) return interaction.reply({ content: `Dino "${name}" not found!`, ephemeral: true });
       return interaction.reply({ embeds: [buildKibbleEmbed(dino)] });
+    }
+    case 'gather': {
+      const name = interaction.options.getString('resource');
+      const resource = data.resources[name];
+      if (!resource) return interaction.reply({ content: `Resource "${name}" not found!`, ephemeral: true });
+      const dinoNames = [];
+      const toolNames = [];
+      for (const entry of resource.bestGatheringTools) {
+        if (data.dinos[entry]) {
+          dinoNames.push(entry);
+        } else {
+          toolNames.push(entry);
+        }
+      }
+      return interaction.reply({ embeds: [buildGatherEmbed(resource, dinoNames, toolNames)] });
     }
     case 'engram': {
       const level = interaction.options.getInteger('level');
