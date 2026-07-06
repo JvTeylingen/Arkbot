@@ -1,139 +1,171 @@
 {
   "breedingFormulas": {
-    "incubationMultiplier": 1.0,
-    "maturationMultiplier": 1.0,
+    "incubationMultiplier": 1,
+    "maturationMultiplier": 1,
     "imprintInterval": "8h",
     "mutationChance": 0.025,
     "description": "Multiplier relative to official rates. E.g., 2 = 2x faster breeding. Default 1 = official."
   },
   "dinoBreeding": {
     "Rex": {
-      "incubationMin": 120,
+      "incubationMin": 299,
       "maturationMin": 2640,
       "imprintIntervalMin": 528,
-      "totalAdultMin": 2760
+      "totalAdultMin": 5495
     },
     "Raptor": {
-      "incubationMin": 48,
-      "maturationMin": 1160,
-      "imprintIntervalMin": 232,
-      "totalAdultMin": 1208
+      "incubationMin": 119,
+      "maturationMin": 1320,
+      "imprintIntervalMin": 264,
+      "totalAdultMin": 2222
     },
     "Pteranodon": {
-      "incubationMin": 40,
-      "maturationMin": 660,
-      "imprintIntervalMin": 132,
-      "totalAdultMin": 700
+      "incubationMin": 99,
+      "maturationMin": 1320,
+      "imprintIntervalMin": 264,
+      "totalAdultMin": 2222
     },
     "Trike": {
-      "incubationMin": 54,
-      "maturationMin": 1320,
-      "imprintIntervalMin": 264,
-      "totalAdultMin": 1374
+      "incubationMin": 68,
+      "maturationMin": 660,
+      "imprintIntervalMin": 132,
+      "totalAdultMin": 1080
     },
     "Ankylosaurus": {
-      "incubationMin": 78,
-      "maturationMin": 1800,
-      "imprintIntervalMin": 360,
-      "totalAdultMin": 1878
+      "incubationMin": 157,
+      "maturationMin": 1960,
+      "imprintIntervalMin": 392,
+      "totalAdultMin": 2900
     },
     "Argentavis": {
-      "incubationMin": 80,
-      "maturationMin": 1800,
-      "imprintIntervalMin": 360,
-      "totalAdultMin": 1880
+      "incubationMin": 176,
+      "maturationMin": 2250,
+      "imprintIntervalMin": 450,
+      "totalAdultMin": 3327
     },
     "Carnotaurus": {
-      "incubationMin": 55,
+      "incubationMin": 99,
       "maturationMin": 1320,
       "imprintIntervalMin": 264,
-      "totalAdultMin": 1375
+      "totalAdultMin": 2657
     },
     "Spino": {
-      "incubationMin": 86,
-      "maturationMin": 2040,
-      "imprintIntervalMin": 408,
-      "totalAdultMin": 2126
+      "incubationMin": 99,
+      "maturationMin": 2085,
+      "imprintIntervalMin": 417,
+      "totalAdultMin": 3602
     },
     "Therizinosaur": {
-      "incubationMin": 90,
-      "maturationMin": 2040,
-      "imprintIntervalMin": 408,
-      "totalAdultMin": 2130
+      "incubationMin": 99,
+      "maturationMin": 3200,
+      "imprintIntervalMin": 640,
+      "totalAdultMin": 6919
     },
     "Mammoth": {
-      "incubationMin": 60,
-      "maturationMin": 1440,
-      "imprintIntervalMin": 288,
-      "totalAdultMin": 1500
+      "gestationMin": 476,
+      "maturationMin": 2400,
+      "imprintIntervalMin": 480,
+      "totalAdultMin": 4818
     },
     "Doedicurus": {
-      "incubationMin": 64,
-      "maturationMin": 1536,
-      "imprintIntervalMin": 307,
-      "totalAdultMin": 1600
+      "gestationMin": 297,
+      "maturationMin": 2100,
+      "imprintIntervalMin": 420,
+      "totalAdultMin": 4050
     },
     "Stegosaurus": {
-      "incubationMin": 70,
-      "maturationMin": 1680,
-      "imprintIntervalMin": 336,
-      "totalAdultMin": 1750
+      "incubationMin": 166,
+      "maturationMin": 2000,
+      "imprintIntervalMin": 400,
+      "totalAdultMin": 3086
     },
     "Megalodon": {
-      "incubationMin": 66,
-      "maturationMin": 1680,
-      "imprintIntervalMin": 336,
-      "totalAdultMin": 1746
+      "gestationMin": 366,
+      "maturationMin": 1800,
+      "imprintIntervalMin": 360,
+      "totalAdultMin": 4213
     },
     "Giganotosaurus": {
-      "incubationMin": 190,
-      "maturationMin": 4550,
-      "imprintIntervalMin": 910,
-      "totalAdultMin": 4740
+      "incubationMin": 2900,
+      "maturationMin": 6600,
+      "imprintIntervalMin": 1320,
+      "totalAdultMin": 14459
     },
     "Yutyrannus": {
-      "incubationMin": 140,
-      "maturationMin": 3300,
-      "imprintIntervalMin": 660,
-      "totalAdultMin": 3440
+      "gestationMin": 299,
+      "maturationMin": 3000,
+      "imprintIntervalMin": 600,
+      "totalAdultMin": 4656
     },
     "Quetzalcoatlus": {
-      "incubationMin": 140,
-      "maturationMin": 2700,
-      "imprintIntervalMin": 540,
+      "gestationMin": 476,
+      "maturationMin": 1800,
+      "imprintIntervalMin": 360,
       "totalAdultMin": 2840
     },
     "Mosasaurus": {
-      "incubationMin": 145,
-      "maturationMin": 3440,
-      "imprintIntervalMin": 688,
-      "totalAdultMin": 3585
+      "gestationMin": 476,
+      "maturationMin": 3600,
+      "imprintIntervalMin": 720,
+      "totalAdultMin": 5263
     },
     "Dodo": {
-      "incubationMin": 12,
-      "maturationMin": 210,
-      "imprintIntervalMin": 42,
-      "totalAdultMin": 222
+      "incubationMin": 49,
+      "maturationMin": 540,
+      "imprintIntervalMin": 108,
+      "totalAdultMin": 925
     }
   },
   "craftingFormulas": {
     "description": "Base crafting time multiplier. Higher = slower crafting. Default official is 1.0.",
-    "craftingSpeedMultiplier": 1.0
+    "craftingSpeedMultiplier": 1
   },
   "tamingFormulas": {
     "description": "Taming speed multiplier. Higher = faster taming. Default official is 1.0.",
-    "tamingSpeedMultiplier": 1.0,
+    "tamingSpeedMultiplier": 1,
     "kibbleEffectiveness": 0.5
   },
   "foodData": {
-    "Mejoberry": { "foodValue": 20, "tamingAffinity": 14.4, "category": "berry" },
-    "Azulberry": { "foodValue": 15, "tamingAffinity": 8, "category": "berry" },
-    "Raw Meat": { "foodValue": 50, "tamingAffinity": 50, "category": "meat" },
-    "Prime Meat": { "foodValue": 95, "tamingAffinity": 150, "category": "meat" },
-    "Cooked Meat": { "foodValue": 25, "tamingAffinity": 25, "category": "meat" },
-    "Basic Kibble": { "foodValue": 60, "tamingAffinity": 60, "category": "kibble" },
-    "Superior Kibble": { "foodValue": 80, "tamingAffinity": 120, "category": "kibble" },
-    "Exceptional Kibble": { "foodValue": 100, "tamingAffinity": 160, "category": "kibble" }
+    "Mejoberry": {
+      "foodValue": 30,
+      "tamingAffinity": 30,
+      "category": "berry"
+    },
+    "Azulberry": {
+      "foodValue": 15,
+      "tamingAffinity": 20,
+      "category": "berry"
+    },
+    "Raw Meat": {
+      "foodValue": 50,
+      "tamingAffinity": 50,
+      "category": "meat"
+    },
+    "Prime Meat": {
+      "foodValue": 50,
+      "tamingAffinity": 150,
+      "category": "meat"
+    },
+    "Cooked Meat": {
+      "foodValue": 25,
+      "tamingAffinity": 25,
+      "category": "meat"
+    },
+    "Basic Kibble": {
+      "foodValue": 60,
+      "tamingAffinity": 60,
+      "category": "kibble"
+    },
+    "Superior Kibble": {
+      "foodValue": 90,
+      "tamingAffinity": 120,
+      "category": "kibble"
+    },
+    "Exceptional Kibble": {
+      "foodValue": 90,
+      "tamingAffinity": 160,
+      "category": "kibble"
+    }
   },
   "tamingData": {
     "torporPerNarcotic": 40,

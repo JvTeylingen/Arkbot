@@ -1,338 +1,887 @@
 {
   "Fabricator": {
-    "name": "Fabricator", "category": "Structure",
+    "name": "Fabricator",
+    "category": "Structure",
     "description": "Used to craft advanced items like firearms, electronics, and metal structures.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 20, "Hide": 15, "Electronics": 10 }, "station": "Smithy", "time": "30s" },
-    "blueprintPath": "Structures/Industrial", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 20,
+        "Hide": 15,
+        "Electronics": 10
+      },
+      "station": "Smithy",
+      "time": "30s"
+    },
+    "blueprintPath": "Structures/Industrial",
+    "unlockLevel": 48
   },
   "Smithy": {
-    "name": "Smithy", "category": "Structure",
+    "name": "Smithy",
+    "category": "Structure",
     "description": "Workstation for crafting metal tools, weapons, and saddles.",
-    "craftingRecipe": { "ingredients": { "Wood": 20, "Thatch": 15, "Hide": 25, "Metal": 10 }, "station": "Hand", "time": "10s" },
-    "blueprintPath": "Structures/Crafting", "unlockLevel": 15
+    "craftingRecipe": {
+      "ingredients": {
+        "Wood": 20,
+        "Thatch": 15,
+        "Hide": 25,
+        "Metal": 10
+      },
+      "station": "Hand",
+      "time": "10s"
+    },
+    "blueprintPath": "Structures/Crafting",
+    "unlockLevel": 20
   },
   "Mortar and Pestle": {
-    "name": "Mortar and Pestle", "category": "Tool",
+    "name": "Mortar and Pestle",
+    "category": "Tool",
     "description": "Hand-held crafting station for narcotics, sparkpowder, and dyes.",
-    "craftingRecipe": { "ingredients": { "Stone": 10, "Wood": 5, "Flint": 3 }, "station": "Hand", "time": "5s" },
-    "blueprintPath": "Tools", "unlockLevel": 2
+    "craftingRecipe": {
+      "ingredients": {
+        "Stone": 10,
+        "Wood": 5,
+        "Flint": 3
+      },
+      "station": "Hand",
+      "time": "5s"
+    },
+    "blueprintPath": "Tools",
+    "unlockLevel": 6
   },
   "Campfire": {
-    "name": "Campfire", "category": "Structure",
+    "name": "Campfire",
+    "category": "Structure",
     "description": "Basic cooking fire for preparing food and keeping warm.",
-    "craftingRecipe": { "ingredients": { "Wood": 2, "Thatch": 5, "Stone": 1 }, "station": "Hand", "time": "3s" },
-    "blueprintPath": "Structures/Fires", "unlockLevel": 1
+    "craftingRecipe": {
+      "ingredients": {
+        "Wood": 2,
+        "Thatch": 5,
+        "Stone": 1
+      },
+      "station": "Hand",
+      "time": "3s"
+    },
+    "blueprintPath": "Structures/Fires",
+    "unlockLevel": 2
   },
   "Cooking Pot": {
-    "name": "Cooking Pot", "category": "Structure",
+    "name": "Cooking Pot",
+    "category": "Structure",
     "description": "Used to cook advanced recipes like kibble and stews.",
-    "craftingRecipe": { "ingredients": { "Metal": 10, "Hide": 8 }, "station": "Hand", "time": "5s" },
-    "blueprintPath": "Structures/Fires", "unlockLevel": 5
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal": 10,
+        "Hide": 8
+      },
+      "station": "Hand",
+      "time": "5s"
+    },
+    "blueprintPath": "Structures/Fires",
+    "unlockLevel": 8
   },
   "Industrial Grill": {
-    "name": "Industrial Grill", "category": "Structure",
+    "name": "Industrial Grill",
+    "category": "Structure",
     "description": "High-speed cooking appliance, cooks meat in bulk.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 50, "Hide": 40, "Cementing Paste": 20, "Electronics": 5 }, "station": "Fabricator", "time": "30s" },
-    "blueprintPath": "Structures/Industrial", "unlockLevel": 55
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 50,
+        "Hide": 40,
+        "Cementing Paste": 20,
+        "Electronics": 5
+      },
+      "station": "Fabricator",
+      "time": "30s"
+    },
+    "blueprintPath": "Structures/Industrial",
+    "unlockLevel": 50
   },
   "Refining Forge": {
-    "name": "Refining Forge", "category": "Structure",
+    "name": "Refining Forge",
+    "category": "Structure",
     "description": "Burns wood to refine metal ore into ingots.",
-    "craftingRecipe": { "ingredients": { "Stone": 25, "Wood": 10, "Thatch": 15, "Flint": 5 }, "station": "Hand", "time": "10s" },
-    "blueprintPath": "Structures/Industrial", "unlockLevel": 20
+    "craftingRecipe": {
+      "ingredients": {
+        "Stone": 25,
+        "Wood": 10,
+        "Thatch": 15,
+        "Flint": 5
+      },
+      "station": "Hand",
+      "time": "10s"
+    },
+    "blueprintPath": "Structures/Industrial",
+    "unlockLevel": 20
   },
   "Industrial Forge": {
-    "name": "Industrial Forge", "category": "Structure",
+    "name": "Industrial Forge",
+    "category": "Structure",
     "description": "Mass-produces metal ingots at high speed.",
-    "craftingRecipe": { "ingredients": { "Cementing Paste": 30, "Metal Ingot": 50, "Hide": 80, "Polymer": 25, "Electronics": 10 }, "station": "Fabricator", "time": "45s" },
-    "blueprintPath": "Structures/Industrial", "unlockLevel": 60
+    "craftingRecipe": {
+      "ingredients": {
+        "Cementing Paste": 30,
+        "Metal Ingot": 50,
+        "Hide": 80,
+        "Polymer": 25,
+        "Electronics": 10
+      },
+      "station": "Fabricator",
+      "time": "45s"
+    },
+    "blueprintPath": "Structures/Industrial",
+    "unlockLevel": 80
   },
   "Metal Pick": {
-    "name": "Metal Pick", "category": "Tool",
+    "name": "Metal Pick",
+    "category": "Tool",
     "description": "Efficient tool for gathering metal, flint, and stone.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 3, "Wood": 10 }, "station": "Smithy", "time": "10s" },
-    "blueprintPath": "Tools", "unlockLevel": 25
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 3,
+        "Wood": 10
+      },
+      "station": "Smithy",
+      "time": "10s"
+    },
+    "blueprintPath": "Tools",
+    "unlockLevel": 20
   },
   "Metal Hatchet": {
-    "name": "Metal Hatchet", "category": "Tool",
+    "name": "Metal Hatchet",
+    "category": "Tool",
     "description": "Efficient tool for gathering wood, thatch, and meat.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 3, "Wood": 10 }, "station": "Smithy", "time": "10s" },
-    "blueprintPath": "Tools", "unlockLevel": 25
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 3,
+        "Wood": 10
+      },
+      "station": "Smithy",
+      "time": "10s"
+    },
+    "blueprintPath": "Tools",
+    "unlockLevel": 20
   },
   "Metal Sickle": {
-    "name": "Metal Sickle", "category": "Tool",
+    "name": "Metal Sickle",
+    "category": "Tool",
     "description": "Efficient tool for gathering fiber from plants.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 5, "Wood": 10 }, "station": "Smithy", "time": "15s" },
-    "blueprintPath": "Tools", "unlockLevel": 40
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 5,
+        "Wood": 10
+      },
+      "station": "Smithy",
+      "time": "15s"
+    },
+    "blueprintPath": "Tools",
+    "unlockLevel": 30
   },
   "Crossbow": {
-    "name": "Crossbow", "category": "Weapon",
+    "name": "Crossbow",
+    "category": "Weapon",
     "description": "Ranged weapon for hunting, combat, and tranquilizing dinos.",
-    "craftingRecipe": { "ingredients": { "Wood": 20, "Metal Ingot": 5, "Hide": 10, "Fiber": 15 }, "station": "Smithy", "time": "15s" },
-    "blueprintPath": "Weapons/Ranged", "unlockLevel": 20
+    "craftingRecipe": {
+      "ingredients": {
+        "Wood": 20,
+        "Metal Ingot": 5,
+        "Hide": 10,
+        "Fiber": 15
+      },
+      "station": "Smithy",
+      "time": "15s"
+    },
+    "blueprintPath": "Weapons/Ranged",
+    "unlockLevel": 25
   },
   "Longneck Rifle": {
-    "name": "Longneck Rifle", "category": "Weapon",
+    "name": "Longneck Rifle",
+    "category": "Weapon",
     "description": "High-damage rifle for hunting and long-range tranquilizing.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 12, "Wood": 15, "Hide": 10 }, "station": "Fabricator", "time": "20s" },
-    "blueprintPath": "Weapons/Ranged", "unlockLevel": 30
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 12,
+        "Wood": 15,
+        "Hide": 10
+      },
+      "station": "Fabricator",
+      "time": "20s"
+    },
+    "blueprintPath": "Weapons/Ranged",
+    "unlockLevel": 35
   },
   "Simple Pistol": {
-    "name": "Simple Pistol", "category": "Weapon",
+    "name": "Simple Pistol",
+    "category": "Weapon",
     "description": "Basic sidearm for self-defense.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 8, "Wood": 12, "Hide": 8 }, "station": "Fabricator", "time": "15s" },
-    "blueprintPath": "Weapons/Ranged", "unlockLevel": 25
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 8,
+        "Wood": 12,
+        "Hide": 8
+      },
+      "station": "Fabricator",
+      "time": "15s"
+    },
+    "blueprintPath": "Weapons/Ranged",
+    "unlockLevel": 34
   },
   "Pump-Action Shotgun": {
-    "name": "Pump-Action Shotgun", "category": "Weapon",
+    "name": "Pump-Action Shotgun",
+    "category": "Weapon",
     "description": "Powerful close-range shotgun.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 15, "Wood": 10, "Hide": 15, "Electronics": 3 }, "station": "Fabricator", "time": "25s" },
-    "blueprintPath": "Weapons/Ranged", "unlockLevel": 40
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 15,
+        "Wood": 10,
+        "Hide": 15,
+        "Electronics": 3
+      },
+      "station": "Fabricator",
+      "time": "25s"
+    },
+    "blueprintPath": "Weapons/Ranged",
+    "unlockLevel": 55
   },
   "Assault Rifle": {
-    "name": "Assault Rifle", "category": "Weapon",
+    "name": "Assault Rifle",
+    "category": "Weapon",
     "description": "Automatic rifle for combat.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 30, "Wood": 10, "Hide": 15, "Electronics": 15, "Polymer": 20 }, "station": "Fabricator", "time": "30s" },
-    "blueprintPath": "Weapons/Ranged", "unlockLevel": 50
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 30,
+        "Wood": 10,
+        "Hide": 15,
+        "Electronics": 15,
+        "Polymer": 20
+      },
+      "station": "Fabricator",
+      "time": "30s"
+    },
+    "blueprintPath": "Weapons/Ranged",
+    "unlockLevel": 58
   },
   "Tranq Arrow": {
-    "name": "Tranquilizer Arrow", "category": "Ammo",
+    "name": "Tranquilizer Arrow",
+    "category": "Ammo",
     "description": "Arrow coated with narcotics for tranquilizing dinos.",
-    "craftingRecipe": { "ingredients": { "Arrow": 1, "Narcotic": 2, "Hide": 1 }, "station": "Hand", "time": "2s" },
-    "blueprintPath": "Ammo", "unlockLevel": 20
+    "craftingRecipe": {
+      "ingredients": {
+        "Arrow": 1,
+        "Narcotic": 2,
+        "Hide": 1
+      },
+      "station": "Hand",
+      "time": "2s"
+    },
+    "blueprintPath": "Ammo",
+    "unlockLevel": 21
   },
   "Tranq Dart": {
-    "name": "Tranquilizer Dart", "category": "Ammo",
+    "name": "Tranquilizer Dart",
+    "category": "Ammo",
     "description": "High-potency dart for tranquilizing large dinos.",
-    "craftingRecipe": { "ingredients": { "Narcotic": 4, "Metal Ingot": 1, "Hide": 2 }, "station": "Fabricator", "time": "5s" },
-    "blueprintPath": "Ammo", "unlockLevel": 30
+    "craftingRecipe": {
+      "ingredients": {
+        "Narcotic": 4,
+        "Metal Ingot": 1,
+        "Hide": 2
+      },
+      "station": "Fabricator",
+      "time": "5s"
+    },
+    "blueprintPath": "Ammo",
+    "unlockLevel": 62
   },
   "Narcotic": {
-    "name": "Narcotic", "category": "Consumable",
+    "name": "Narcotic",
+    "category": "Consumable",
     "description": "Used to craft tranq ammo and maintain torpor on tames.",
-    "craftingRecipe": { "ingredients": { "Narcoberry": 5, "Spoiled Meat": 1 }, "station": "Mortar and Pestle", "time": "10s" },
-    "blueprintPath": "Consumables/Medicine", "unlockLevel": 2
+    "craftingRecipe": {
+      "ingredients": {
+        "Narcoberry": 5,
+        "Spoiled Meat": 1
+      },
+      "station": "Mortar and Pestle",
+      "time": "10s"
+    },
+    "blueprintPath": "Consumables/Medicine",
+    "unlockLevel": 6
   },
   "Narcoberry": {
-    "name": "Narcoberry", "category": "Resource",
+    "name": "Narcoberry",
+    "category": "Resource",
     "description": "A dark blue berry used for narcotics and taming.",
     "craftingRecipe": null,
-    "blueprintPath": null, "unlockLevel": null
+    "blueprintPath": null,
+    "unlockLevel": null
   },
   "Spoiled Meat": {
-    "name": "Spoiled Meat", "category": "Consumable",
+    "name": "Spoiled Meat",
+    "category": "Consumable",
     "description": "Rotten meat used for narcotics and as a taming food.",
     "craftingRecipe": null,
-    "blueprintPath": null, "unlockLevel": null
+    "blueprintPath": null,
+    "unlockLevel": null
   },
   "Sparkpowder": {
-    "name": "Sparkpowder", "category": "Resource",
+    "name": "Sparkpowder",
+    "category": "Resource",
     "description": "Used for bullets, propellant, and some crafting recipes.",
-    "craftingRecipe": { "ingredients": { "Flint": 2, "Stone": 1 }, "station": "Mortar and Pestle", "time": "2s" },
-    "blueprintPath": "Resources", "unlockLevel": 2
+    "craftingRecipe": {
+      "ingredients": {
+        "Flint": 2,
+        "Stone": 1
+      },
+      "station": "Mortar and Pestle",
+      "time": "2s"
+    },
+    "blueprintPath": "Resources",
+    "unlockLevel": 6
   },
   "Gunpowder": {
-    "name": "Gunpowder", "category": "Resource",
+    "name": "Gunpowder",
+    "category": "Resource",
     "description": "Used to craft bullets and explosives.",
-    "craftingRecipe": { "ingredients": { "Sparkpowder": 2, "Charcoal": 1 }, "station": "Mortar and Pestle", "time": "3s" },
-    "blueprintPath": "Resources", "unlockLevel": 20
+    "craftingRecipe": {
+      "ingredients": {
+        "Sparkpowder": 2,
+        "Charcoal": 1
+      },
+      "station": "Mortar and Pestle",
+      "time": "3s"
+    },
+    "blueprintPath": "Resources",
+    "unlockLevel": 15
   },
   "Bullet": {
-    "name": "Simple Bullet", "category": "Ammo",
+    "name": "Simple Bullet",
+    "category": "Ammo",
     "description": "Standard ammunition for pistols and rifles.",
-    "craftingRecipe": { "ingredients": { "Gunpowder": 1, "Metal Ingot": 1 }, "station": "Fabricator", "time": "2s" },
-    "blueprintPath": "Ammo", "unlockLevel": 25
+    "craftingRecipe": {
+      "ingredients": {
+        "Gunpowder": 1,
+        "Metal Ingot": 1
+      },
+      "station": "Fabricator",
+      "time": "2s"
+    },
+    "blueprintPath": "Ammo",
+    "unlockLevel": 34
   },
   "C4 Charge": {
-    "name": "C4 Charge", "category": "Weapon",
+    "name": "C4 Charge",
+    "category": "Weapon",
     "description": "Remote detonation explosive for raiding and mining.",
-    "craftingRecipe": { "ingredients": { "Cementing Paste": 5, "Metal Ingot": 10, "Electronics": 5, "Hide": 5 }, "station": "Fabricator", "time": "20s" },
-    "blueprintPath": "Weapons/Explosives", "unlockLevel": 45
+    "craftingRecipe": {
+      "ingredients": {
+        "Cementing Paste": 5,
+        "Metal Ingot": 10,
+        "Electronics": 5,
+        "Hide": 5
+      },
+      "station": "Fabricator",
+      "time": "20s"
+    },
+    "blueprintPath": "Weapons/Explosives",
+    "unlockLevel": 65
   },
   "Rocket Launcher": {
-    "name": "Rocket Launcher", "category": "Weapon",
+    "name": "Rocket Launcher",
+    "category": "Weapon",
     "description": "Heavy anti-structure weapon.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 40, "Wood": 15, "Hide": 20, "Electronics": 15, "Cementing Paste": 10, "Polymer": 25 }, "station": "Fabricator", "time": "45s" },
-    "blueprintPath": "Weapons/Explosives", "unlockLevel": 55
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 40,
+        "Wood": 15,
+        "Hide": 20,
+        "Electronics": 15,
+        "Cementing Paste": 10,
+        "Polymer": 25
+      },
+      "station": "Fabricator",
+      "time": "45s"
+    },
+    "blueprintPath": "Weapons/Explosives",
+    "unlockLevel": 87
   },
   "Stone Foundation": {
-    "name": "Stone Foundation", "category": "Structure",
+    "name": "Stone Foundation",
+    "category": "Structure",
     "description": "Foundational building piece with high durability.",
-    "craftingRecipe": { "ingredients": { "Stone": 40, "Wood": 10, "Thatch": 6 }, "station": "Hand", "time": "15s" },
-    "blueprintPath": "Structures/Building", "unlockLevel": 20
+    "craftingRecipe": {
+      "ingredients": {
+        "Stone": 40,
+        "Wood": 10,
+        "Thatch": 6
+      },
+      "station": "Hand",
+      "time": "15s"
+    },
+    "blueprintPath": "Structures/Building",
+    "unlockLevel": 24
   },
   "Stone Wall": {
-    "name": "Stone Wall", "category": "Structure",
+    "name": "Stone Wall",
+    "category": "Structure",
     "description": "Vertical building piece with high durability.",
-    "craftingRecipe": { "ingredients": { "Stone": 20, "Wood": 5, "Thatch": 3 }, "station": "Hand", "time": "10s" },
-    "blueprintPath": "Structures/Building", "unlockLevel": 20
+    "craftingRecipe": {
+      "ingredients": {
+        "Stone": 20,
+        "Wood": 5,
+        "Thatch": 3
+      },
+      "station": "Hand",
+      "time": "10s"
+    },
+    "blueprintPath": "Structures/Building",
+    "unlockLevel": 24
   },
   "Stone Doorframe": {
-    "name": "Stone Doorframe", "category": "Structure",
+    "name": "Stone Doorframe",
+    "category": "Structure",
     "description": "Doorway opening for stone structures.",
-    "craftingRecipe": { "ingredients": { "Stone": 24, "Wood": 6, "Thatch": 4 }, "station": "Hand", "time": "10s" },
-    "blueprintPath": "Structures/Building", "unlockLevel": 20
+    "craftingRecipe": {
+      "ingredients": {
+        "Stone": 24,
+        "Wood": 6,
+        "Thatch": 4
+      },
+      "station": "Hand",
+      "time": "10s"
+    },
+    "blueprintPath": "Structures/Building",
+    "unlockLevel": 24
   },
   "Metal Foundation": {
-    "name": "Metal Foundation", "category": "Structure",
+    "name": "Metal Foundation",
+    "category": "Structure",
     "description": "Foundational building piece with extreme durability.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 20, "Wood": 10, "Thatch": 5 }, "station": "Smithy", "time": "20s" },
-    "blueprintPath": "Structures/Building", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 20,
+        "Wood": 10,
+        "Thatch": 5
+      },
+      "station": "Smithy",
+      "time": "20s"
+    },
+    "blueprintPath": "Structures/Building",
+    "unlockLevel": 45
   },
   "Metal Wall": {
-    "name": "Metal Wall", "category": "Structure",
+    "name": "Metal Wall",
+    "category": "Structure",
     "description": "Vertical building piece with extreme durability.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 10, "Wood": 5, "Thatch": 3 }, "station": "Smithy", "time": "15s" },
-    "blueprintPath": "Structures/Building", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 10,
+        "Wood": 5,
+        "Thatch": 3
+      },
+      "station": "Smithy",
+      "time": "15s"
+    },
+    "blueprintPath": "Structures/Building",
+    "unlockLevel": 45
   },
   "Metal Door": {
-    "name": "Metal Door", "category": "Structure",
+    "name": "Metal Door",
+    "category": "Structure",
     "description": "Reinforced door for secure base entrances.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 8, "Wood": 4, "Thatch": 2 }, "station": "Smithy", "time": "10s" },
-    "blueprintPath": "Structures/Building", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 8,
+        "Wood": 4,
+        "Thatch": 2
+      },
+      "station": "Smithy",
+      "time": "10s"
+    },
+    "blueprintPath": "Structures/Building",
+    "unlockLevel": 45
   },
   "Vault": {
-    "name": "Vault", "category": "Structure",
+    "name": "Vault",
+    "category": "Structure",
     "description": "Extremely durable storage container for valuables.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 100, "Cementing Paste": 20, "Crystal": 5, "Polymer": 15 }, "station": "Fabricator", "time": "60s" },
-    "blueprintPath": "Structures/Storage", "unlockLevel": 50
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 100,
+        "Cementing Paste": 20,
+        "Crystal": 5,
+        "Polymer": 15
+      },
+      "station": "Fabricator",
+      "time": "60s"
+    },
+    "blueprintPath": "Structures/Storage",
+    "unlockLevel": 75
   },
   "Generator": {
-    "name": "Generator", "category": "Structure",
+    "name": "Generator",
+    "category": "Structure",
     "description": "Power source for electrical items. Consumes gasoline.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 25, "Cementing Paste": 10, "Electronics": 20, "Polymer": 15 }, "station": "Fabricator", "time": "30s" },
-    "blueprintPath": "Structures/Electric", "unlockLevel": 50
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 25,
+        "Cementing Paste": 10,
+        "Electronics": 20,
+        "Polymer": 15
+      },
+      "station": "Fabricator",
+      "time": "30s"
+    },
+    "blueprintPath": "Structures/Electric",
+    "unlockLevel": 49
   },
   "Electrical Outlet": {
-    "name": "Electrical Outlet", "category": "Structure",
+    "name": "Electrical Outlet",
+    "category": "Structure",
     "description": "Provides power to connected electrical devices.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 5, "Electronics": 3, "Crystal": 1 }, "station": "Fabricator", "time": "10s" },
-    "blueprintPath": "Structures/Electric", "unlockLevel": 50
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 5,
+        "Electronics": 3,
+        "Crystal": 1
+      },
+      "station": "Fabricator",
+      "time": "10s"
+    },
+    "blueprintPath": "Structures/Electric",
+    "unlockLevel": 49
   },
   "Refrigerator": {
-    "name": "Refrigerator", "category": "Structure",
+    "name": "Refrigerator",
+    "category": "Structure",
     "description": "Preserves food and perishable items. Requires electricity.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 15, "Cementing Paste": 10, "Electronics": 10, "Polymer": 5 }, "station": "Fabricator", "time": "25s" },
-    "blueprintPath": "Structures/Storage", "unlockLevel": 50
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 15,
+        "Cementing Paste": 10,
+        "Electronics": 10,
+        "Polymer": 5
+      },
+      "station": "Fabricator",
+      "time": "25s"
+    },
+    "blueprintPath": "Structures/Storage",
+    "unlockLevel": 60
   },
   "Air Conditioner": {
-    "name": "Air Conditioner", "category": "Structure",
+    "name": "Air Conditioner",
+    "category": "Structure",
     "description": "Regulates temperature for egg incubation and player comfort. Requires electricity.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 10, "Cementing Paste": 5, "Electronics": 12, "Polymer": 8, "Hide": 10 }, "station": "Fabricator", "time": "30s" },
-    "blueprintPath": "Structures/Electric", "unlockLevel": 55
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 10,
+        "Cementing Paste": 5,
+        "Electronics": 12,
+        "Polymer": 8,
+        "Hide": 10
+      },
+      "station": "Fabricator",
+      "time": "30s"
+    },
+    "blueprintPath": "Structures/Electric",
+    "unlockLevel": 61
   },
   "Parachute": {
-    "name": "Parachute", "category": "Equipment",
+    "name": "Parachute",
+    "category": "Equipment",
     "description": "Slows fall speed. Essential for flying mounts and cliff diving.",
-    "craftingRecipe": { "ingredients": { "Hide": 10, "Fiber": 15 }, "station": "Hand", "time": "5s" },
-    "blueprintPath": "Equipment", "unlockLevel": 12
+    "craftingRecipe": {
+      "ingredients": {
+        "Hide": 10,
+        "Fiber": 15
+      },
+      "station": "Hand",
+      "time": "5s"
+    },
+    "blueprintPath": "Equipment",
+    "unlockLevel": 22
   },
   "GPS": {
-    "name": "GPS", "category": "Equipment",
+    "name": "GPS",
+    "category": "Equipment",
     "description": "Shows your current coordinates on the map.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 5, "Electronics": 5, "Crystal": 3 }, "station": "Fabricator", "time": "15s" },
-    "blueprintPath": "Equipment", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 5,
+        "Electronics": 5,
+        "Crystal": 3
+      },
+      "station": "Fabricator",
+      "time": "15s"
+    },
+    "blueprintPath": "Equipment",
+    "unlockLevel": 52
   },
   "Flak Helmet": {
-    "name": "Flak Helmet", "category": "Armor",
+    "name": "Flak Helmet",
+    "category": "Armor",
     "description": "Heavy armor helmet, provides excellent protection.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 15, "Fiber": 10 }, "station": "Smithy", "time": "15s" },
-    "blueprintPath": "Armor/Flak", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 15,
+        "Fiber": 10
+      },
+      "station": "Smithy",
+      "time": "15s"
+    },
+    "blueprintPath": "Armor/Flak",
+    "unlockLevel": 56
   },
   "Flak Chestpiece": {
-    "name": "Flak Chestpiece", "category": "Armor",
+    "name": "Flak Chestpiece",
+    "category": "Armor",
     "description": "Heavy armor chestplate, provides excellent protection.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 25, "Fiber": 15 }, "station": "Smithy", "time": "20s" },
-    "blueprintPath": "Armor/Flak", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 25,
+        "Fiber": 15
+      },
+      "station": "Smithy",
+      "time": "20s"
+    },
+    "blueprintPath": "Armor/Flak",
+    "unlockLevel": 56
   },
   "Flak Leggings": {
-    "name": "Flak Leggings", "category": "Armor",
+    "name": "Flak Leggings",
+    "category": "Armor",
     "description": "Heavy armor leg guards.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 20, "Fiber": 12 }, "station": "Smithy", "time": "15s" },
-    "blueprintPath": "Armor/Flak", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 20,
+        "Fiber": 12
+      },
+      "station": "Smithy",
+      "time": "15s"
+    },
+    "blueprintPath": "Armor/Flak",
+    "unlockLevel": 56
   },
   "Flak Gauntlets": {
-    "name": "Flak Gauntlets", "category": "Armor",
+    "name": "Flak Gauntlets",
+    "category": "Armor",
     "description": "Heavy armor gloves.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 10, "Fiber": 8 }, "station": "Smithy", "time": "10s" },
-    "blueprintPath": "Armor/Flak", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 10,
+        "Fiber": 8
+      },
+      "station": "Smithy",
+      "time": "10s"
+    },
+    "blueprintPath": "Armor/Flak",
+    "unlockLevel": 56
   },
   "Flak Boots": {
-    "name": "Flak Boots", "category": "Armor",
+    "name": "Flak Boots",
+    "category": "Armor",
     "description": "Heavy armor boots.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 10, "Fiber": 8 }, "station": "Smithy", "time": "10s" },
-    "blueprintPath": "Armor/Flak", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 10,
+        "Fiber": 8
+      },
+      "station": "Smithy",
+      "time": "10s"
+    },
+    "blueprintPath": "Armor/Flak",
+    "unlockLevel": 56
   },
   "Gas Mask": {
-    "name": "Gas Mask", "category": "Armor",
+    "name": "Gas Mask",
+    "category": "Armor",
     "description": "Protects from poisonous gas in swamps and caves.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 5, "Hide": 10, "Fiber": 10, "Cementing Paste": 5 }, "station": "Smithy", "time": "15s" },
-    "blueprintPath": "Armor/Special", "unlockLevel": 38
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 5,
+        "Hide": 10,
+        "Fiber": 10,
+        "Cementing Paste": 5
+      },
+      "station": "Smithy",
+      "time": "15s"
+    },
+    "blueprintPath": "Armor/Special",
+    "unlockLevel": 85
   },
   "SCUBA Tank": {
-    "name": "SCUBA Tank", "category": "Armor",
+    "name": "SCUBA Tank",
+    "category": "Armor",
     "description": "Provides oxygen underwater.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 10, "Hide": 15, "Cementing Paste": 5, "Crystal": 5 }, "station": "Fabricator", "time": "15s" },
-    "blueprintPath": "Armor/SCUBA", "unlockLevel": 40
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 10,
+        "Hide": 15,
+        "Cementing Paste": 5,
+        "Crystal": 5
+      },
+      "station": "Fabricator",
+      "time": "15s"
+    },
+    "blueprintPath": "Armor/SCUBA",
+    "unlockLevel": 81
   },
   "Raft": {
-    "name": "Raft", "category": "Structure",
+    "name": "Raft",
+    "category": "Structure",
     "description": "A mobile water base that can be driven and built upon.",
-    "craftingRecipe": { "ingredients": { "Wood": 40, "Thatch": 20, "Hide": 10, "Fiber": 15 }, "station": "Hand", "time": "30s" },
-    "blueprintPath": "Structures/Vehicles", "unlockLevel": 15
+    "craftingRecipe": {
+      "ingredients": {
+        "Wood": 40,
+        "Thatch": 20,
+        "Hide": 10,
+        "Fiber": 15
+      },
+      "station": "Hand",
+      "time": "30s"
+    },
+    "blueprintPath": "Structures/Vehicles",
+    "unlockLevel": 16
   },
   "Motorboat": {
-    "name": "Motorboat", "category": "Structure",
+    "name": "Motorboat",
+    "category": "Structure",
     "description": "A fast motorized water vehicle.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 50, "Wood": 80, "Hide": 40, "Cementing Paste": 15, "Electronics": 10 }, "station": "Fabricator", "time": "60s" },
-    "blueprintPath": "Structures/Vehicles", "unlockLevel": 50
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 50,
+        "Wood": 80,
+        "Hide": 40,
+        "Cementing Paste": 15,
+        "Electronics": 10
+      },
+      "station": "Fabricator",
+      "time": "60s"
+    },
+    "blueprintPath": "Structures/Vehicles",
+    "unlockLevel": 57
   },
   "Sweet Vegetable Cake": {
-    "name": "Sweet Vegetable Cake", "category": "Consumable",
+    "name": "Sweet Vegetable Cake",
+    "category": "Consumable",
     "description": "Used for passive taming and healing herbivores.",
-    "craftingRecipe": { "ingredients": { "Savoroot": 2, "Longrass": 2, "Honey": 1, "Fiber": 5, "Stimulant": 1 }, "station": "Cooking Pot", "time": "30s" },
-    "blueprintPath": "Recipes", "unlockLevel": 10
+    "craftingRecipe": {
+      "ingredients": {
+        "Savoroot": 2,
+        "Longrass": 2,
+        "Honey": 1,
+        "Fiber": 5,
+        "Stimulant": 1
+      },
+      "station": "Cooking Pot",
+      "time": "30s"
+    },
+    "blueprintPath": "Recipes",
+    "unlockLevel": null
   },
   "Medical Brew": {
-    "name": "Medical Brew", "category": "Consumable",
+    "name": "Medical Brew",
+    "category": "Consumable",
     "description": "Heals health over time and cures diseases.",
-    "craftingRecipe": { "ingredients": { "Narcoberry": 5, "Tintoberry": 5, "Water Jar": 1 }, "station": "Cooking Pot", "time": "20s" },
-    "blueprintPath": "Consumables/Medicine", "unlockLevel": 8
+    "craftingRecipe": {
+      "ingredients": {
+        "Narcoberry": 5,
+        "Tintoberry": 5,
+        "Water Jar": 1
+      },
+      "station": "Cooking Pot",
+      "time": "20s"
+    },
+    "blueprintPath": "Consumables/Medicine",
+    "unlockLevel": null
   },
   "Metal Ingot": {
-    "name": "Metal Ingot", "category": "Metal",
+    "name": "Metal Ingot",
+    "category": "Metal",
     "description": "Smelted from Metal Ore in a Refining Forge. Used in almost all advanced crafting.",
-    "craftingRecipe": { "ingredients": { "Metal Ore": 2 }, "station": "Refining Forge", "time": "20s" },
-    "blueprintPath": "Resources", "unlockLevel": 20
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ore": 2
+      },
+      "station": "Refining Forge",
+      "time": "20s"
+    },
+    "blueprintPath": "Resources",
+    "unlockLevel": null
   },
   "Cementing Paste": {
-    "name": "Cementing Paste", "category": "Resource",
+    "name": "Cementing Paste",
+    "category": "Resource",
     "description": "Binding agent used in many structures and electronics. Also found in Beaver Dams.",
-    "craftingRecipe": { "ingredients": { "Chitin": 1, "Stone": 1 }, "station": "Mortar and Pestle", "time": "5s" },
-    "blueprintPath": "Resources", "unlockLevel": 10
+    "craftingRecipe": {
+      "ingredients": {
+        "Chitin": 1,
+        "Stone": 1
+      },
+      "station": "Mortar and Pestle",
+      "time": "5s"
+    },
+    "blueprintPath": "Resources",
+    "unlockLevel": 13
   },
   "Polymer": {
-    "name": "Polymer", "category": "Resource",
+    "name": "Polymer",
+    "category": "Resource",
     "description": "Synthetic material used in advanced crafting. Can also be harvested from Kairuku.",
-    "craftingRecipe": { "ingredients": { "Obsidian": 2, "Cementing Paste": 1 }, "station": "Fabricator", "time": "5s" },
-    "blueprintPath": "Resources", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Obsidian": 2,
+        "Cementing Paste": 1
+      },
+      "station": "Fabricator",
+      "time": "5s"
+    },
+    "blueprintPath": "Resources",
+    "unlockLevel": 48
   },
   "Electronics": {
-    "name": "Electronics", "category": "Component",
+    "name": "Electronics",
+    "category": "Component",
     "description": "Advanced component used in electrical devices, firearms, and Tek tier.",
-    "craftingRecipe": { "ingredients": { "Metal Ingot": 1, "Crystal": 1, "Polymer": 1 }, "station": "Fabricator", "time": "10s" },
-    "blueprintPath": "Resources", "unlockLevel": 35
+    "craftingRecipe": {
+      "ingredients": {
+        "Metal Ingot": 1,
+        "Crystal": 1,
+        "Polymer": 1
+      },
+      "station": "Fabricator",
+      "time": "10s"
+    },
+    "blueprintPath": "Resources",
+    "unlockLevel": 48
   },
   "Arrow": {
-    "name": "Arrow", "category": "Ammo",
+    "name": "Arrow",
+    "category": "Ammo",
     "description": "Basic ammunition for the Bow.",
-    "craftingRecipe": { "ingredients": { "Stone": 1, "Wood": 1, "Thatch": 1 }, "station": "Hand", "time": "2s" },
-    "blueprintPath": "Ammo", "unlockLevel": 3
+    "craftingRecipe": {
+      "ingredients": {
+        "Stone": 1,
+        "Wood": 1,
+        "Thatch": 1
+      },
+      "station": "Hand",
+      "time": "2s"
+    },
+    "blueprintPath": "Ammo",
+    "unlockLevel": 10
   },
   "Charcoal": {
-    "name": "Charcoal", "category": "Resource",
+    "name": "Charcoal",
+    "category": "Resource",
     "description": "Produced by burning Wood in a Campfire or Forge. Used in Gunpowder and Dyes.",
-    "craftingRecipe": { "ingredients": { "Wood": 3 }, "station": "Campfire", "time": "5s" },
-    "blueprintPath": "Resources", "unlockLevel": 2
+    "craftingRecipe": {
+      "ingredients": {
+        "Wood": 3
+      },
+      "station": "Campfire",
+      "time": "5s"
+    },
+    "blueprintPath": "Resources",
+    "unlockLevel": null
   }
 }

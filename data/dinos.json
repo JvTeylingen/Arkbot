@@ -3,29 +3,29 @@
     "name": "Ankylosaurus",
     "shortName": "Anky",
     "baseStats": {
-      "health": 900,
-      "stamina": 200,
+      "health": 700,
+      "stamina": 175,
       "oxygen": 150,
       "food": 3000,
-      "weight": 400,
-      "meleeDamage": 40
+      "weight": 250,
+      "meleeDamage": 50
     },
     "taming": {
       "method": "knockout",
-      "torpor": 550,
+      "torpor": 420,
       "food": [
         "Mejoberry",
         "Azulberry"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 691
+      "tamingAffinity": 1500
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 27,
+    "saddleLevel": 36,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -51,29 +51,29 @@
     "shortName": "Argy",
     "baseStats": {
       "health": 365,
-      "stamina": 300,
+      "stamina": 400,
       "oxygen": 150,
-      "food": 1350,
-      "weight": 300,
+      "food": 2000,
+      "weight": 400,
       "meleeDamage": 25
     },
     "taming": {
       "method": "knockout",
-      "torpor": 300,
+      "torpor": 600,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1950
+      "tamingAffinity": 1000
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Feather"
     ],
-    "saddleLevel": 32,
+    "saddleLevel": 62,
     "temperament": "Territorial",
     "spawnLocations": [
       {
@@ -98,29 +98,29 @@
     "name": "Arthropluera",
     "shortName": "Arthro",
     "baseStats": {
-      "health": 800,
-      "stamina": 100,
+      "health": 500,
+      "stamina": 200,
       "oxygen": 150,
-      "food": 1050,
-      "weight": 250,
-      "meleeDamage": 40
+      "food": 1200,
+      "weight": 100,
+      "meleeDamage": 18
     },
     "taming": {
       "method": "knockout",
-      "torpor": 550,
+      "torpor": 175,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 525
+      "tamingAffinity": 600
     },
     "drops": [
       "Raw Meat",
       "Chitin"
     ],
-    "saddleLevel": 40,
+    "saddleLevel": 54,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -145,29 +145,29 @@
     "name": "Baryonyx",
     "shortName": "Bary",
     "baseStats": {
-      "health": 500,
-      "stamina": 350,
-      "oxygen": 150,
-      "food": 2800,
-      "weight": 300,
-      "meleeDamage": 30
+      "health": 440,
+      "stamina": 325,
+      "oxygen": 225,
+      "food": 2250,
+      "weight": 325,
+      "meleeDamage": 35
     },
     "taming": {
       "method": "knockout",
-      "torpor": 450,
+      "torpor": 400,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1400
+      "tamingAffinity": 1125
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 38,
+    "saddleLevel": 49,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -192,29 +192,29 @@
     "name": "Beelzebufo",
     "shortName": "Frog",
     "baseStats": {
-      "health": 280,
-      "stamina": 400,
-      "oxygen": 9999,
-      "food": 1200,
-      "weight": 180,
-      "meleeDamage": 22
+      "health": 220,
+      "stamina": 190,
+      "oxygen": 150,
+      "food": 1500,
+      "weight": 160,
+      "meleeDamage": 12
     },
     "taming": {
       "method": "knockout",
-      "torpor": 150,
+      "torpor": 200,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 600
+      "tamingAffinity": 750
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 30,
+    "saddleLevel": 40,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -238,30 +238,30 @@
     "name": "Carbonemys",
     "shortName": "Turtle",
     "baseStats": {
-      "health": 550,
-      "stamina": 100,
-      "oxygen": 9999,
-      "food": 1500,
-      "weight": 350,
-      "meleeDamage": 15
+      "health": 700,
+      "stamina": 200,
+      "oxygen": 150,
+      "food": 3000,
+      "weight": 270,
+      "meleeDamage": 13
     },
     "taming": {
       "method": "knockout",
-      "torpor": 350,
+      "torpor": 275,
       "food": [
         "Mejoberry",
         "Azulberry"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 750
+      "tamingAffinity": 1500
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Keratin"
     ],
-    "saddleLevel": 20,
+    "saddleLevel": 10,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -286,12 +286,12 @@
     "name": "Carnotaurus",
     "shortName": "Carno",
     "baseStats": {
-      "health": 425,
-      "stamina": 350,
+      "health": 420,
+      "stamina": 300,
       "oxygen": 150,
-      "food": 3000,
-      "weight": 350,
-      "meleeDamage": 45
+      "food": 2000,
+      "weight": 300,
+      "meleeDamage": 35
     },
     "taming": {
       "method": "knockout",
@@ -302,13 +302,13 @@
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1500
+      "tamingAffinity": 1000
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 35,
+    "saddleLevel": 46,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -330,64 +330,16 @@
       "torpor": 0.06
     }
   },
-  "Daedon": {
-    "name": "Daedon",
-    "shortName": "Pig",
-    "baseStats": {
-      "health": 500,
-      "stamina": 200,
-      "oxygen": 150,
-      "food": 5000,
-      "weight": 300,
-      "meleeDamage": 15
-    },
-    "taming": {
-      "method": "passive",
-      "torpor": 0,
-      "food": [
-        "Raw Meat",
-        "Cooked Meat"
-      ],
-      "preferredKibble": null,
-      "kibbleBonus": 0,
-      "tamingAffinity": 2500
-    },
-    "drops": [
-      "Raw Meat",
-      "Hide",
-      "Pelt"
-    ],
-    "saddleLevel": 50,
-    "temperament": "Passive",
-    "spawnLocations": [
-      {
-        "map": "The Island",
-        "biomes": [
-          "Snow",
-          "Mountain"
-        ]
-      }
-    ],
-    "statScaling": {
-      "health": 0.2,
-      "stamina": 0.1,
-      "oxygen": 0.1,
-      "food": 0.1,
-      "weight": 0.02,
-      "meleeDamage": 0.05,
-      "torpor": 0.06
-    }
-  },
   "Dilophosaur": {
     "name": "Dilophosaur",
     "shortName": "Dilo",
     "baseStats": {
-      "health": 150,
-      "stamina": 180,
+      "health": 130,
+      "stamina": 100,
       "oxygen": 150,
-      "food": 1050,
-      "weight": 130,
-      "meleeDamage": 20
+      "food": 450,
+      "weight": 45,
+      "meleeDamage": 10
     },
     "taming": {
       "method": "knockout",
@@ -398,7 +350,7 @@
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 525
+      "tamingAffinity": 225
     },
     "drops": [
       "Raw Meat",
@@ -430,16 +382,16 @@
     "name": "Direwolf",
     "shortName": "Wolf",
     "baseStats": {
-      "health": 270,
-      "stamina": 200,
+      "health": 330,
+      "stamina": 260,
       "oxygen": 150,
       "food": 1200,
-      "weight": 150,
-      "meleeDamage": 38
+      "weight": 170,
+      "meleeDamage": 33
     },
     "taming": {
       "method": "knockout",
-      "torpor": 250,
+      "torpor": 450,
       "food": [
         "Raw Meat",
         "Prime Meat"
@@ -453,7 +405,7 @@
       "Hide",
       "Pelt"
     ],
-    "saddleLevel": 28,
+    "saddleLevel": null,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -478,7 +430,7 @@
     "name": "Dodo",
     "shortName": "Dodo",
     "baseStats": {
-      "health": 50,
+      "health": 40,
       "stamina": 100,
       "oxygen": 150,
       "food": 450,
@@ -487,13 +439,13 @@
     },
     "taming": {
       "method": "knockout",
-      "torpor": 50,
+      "torpor": 30,
       "food": [
         "Mejoberry"
       ],
       "preferredKibble": null,
       "kibbleBonus": 0,
-      "tamingAffinity": 173
+      "tamingAffinity": 225
     },
     "drops": [
       "Raw Meat",
@@ -525,16 +477,16 @@
     "name": "Doedicurus",
     "shortName": "Doed",
     "baseStats": {
-      "health": 800,
-      "stamina": 200,
+      "health": 850,
+      "stamina": 300,
       "oxygen": 150,
       "food": 3000,
-      "weight": 350,
-      "meleeDamage": 20
+      "weight": 250,
+      "meleeDamage": 32
     },
     "taming": {
       "method": "knockout",
-      "torpor": 450,
+      "torpor": 800,
       "food": [
         "Mejoberry",
         "Azulberry"
@@ -547,7 +499,7 @@
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 30,
+    "saddleLevel": 34,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -572,29 +524,29 @@
     "name": "Dunkleosteus",
     "shortName": "Dunkly",
     "baseStats": {
-      "health": 1000,
+      "health": 710,
       "stamina": 200,
-      "oxygen": 9999,
-      "food": 2800,
-      "weight": 600,
-      "meleeDamage": 35
+      "oxygen": 150,
+      "food": 2000,
+      "weight": 910,
+      "meleeDamage": 60
     },
     "taming": {
       "method": "knockout",
-      "torpor": 1000,
+      "torpor": 1150,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1400
+      "tamingAffinity": 1000
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 45,
+    "saddleLevel": 44,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -618,29 +570,29 @@
     "name": "Equus",
     "shortName": "Horse",
     "baseStats": {
-      "health": 375,
-      "stamina": 500,
+      "health": 240,
+      "stamina": 560,
       "oxygen": 150,
-      "food": 1800,
-      "weight": 280,
-      "meleeDamage": 18
+      "food": 1500,
+      "weight": 350,
+      "meleeDamage": 9
     },
     "taming": {
       "method": "passive",
-      "torpor": 0,
+      "torpor": 420,
       "food": [
         "Rockarrot",
         "Mejoberry"
       ],
       "preferredKibble": null,
       "kibbleBonus": 0,
-      "tamingAffinity": 900
+      "tamingAffinity": 750
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 15,
+    "saddleLevel": 20,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -664,30 +616,30 @@
     "name": "Giganotosaurus",
     "shortName": "Giga",
     "baseStats": {
-      "health": 2400,
-      "stamina": 350,
+      "health": 80000,
+      "stamina": 400,
       "oxygen": 150,
-      "food": 7000,
+      "food": 4000,
       "weight": 700,
-      "meleeDamage": 120
+      "meleeDamage": 500
     },
     "taming": {
       "method": "knockout",
-      "torpor": 5000,
+      "torpor": 10000,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Exceptional Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 5760
+      "tamingAffinity": 2000
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Pelt"
     ],
-    "saddleLevel": 60,
+    "saddleLevel": 96,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -711,29 +663,29 @@
     "name": "Iguanodon",
     "shortName": "Iggy",
     "baseStats": {
-      "health": 400,
-      "stamina": 350,
+      "health": 250,
+      "stamina": 200,
       "oxygen": 150,
-      "food": 2000,
-      "weight": 300,
-      "meleeDamage": 20
+      "food": 1800,
+      "weight": 375,
+      "meleeDamage": 25
     },
     "taming": {
       "method": "knockout",
-      "torpor": 250,
+      "torpor": 400,
       "food": [
         "Mejoberry",
         "Azulberry"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1000
+      "tamingAffinity": 900
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 20,
+    "saddleLevel": 30,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -759,30 +711,30 @@
     "name": "Woolly Mammoth",
     "shortName": "Mammoth",
     "baseStats": {
-      "health": 750,
-      "stamina": 500,
+      "health": 850,
+      "stamina": 330,
       "oxygen": 150,
-      "food": 3000,
+      "food": 5000,
       "weight": 500,
-      "meleeDamage": 35
+      "meleeDamage": 48
     },
     "taming": {
       "method": "knockout",
-      "torpor": 700,
+      "torpor": 600,
       "food": [
         "Mejoberry",
         "Azulberry"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1500
+      "tamingAffinity": 2500
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Pelt"
     ],
-    "saddleLevel": 30,
+    "saddleLevel": 31,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -808,28 +760,28 @@
     "shortName": "Mega",
     "baseStats": {
       "health": 600,
-      "stamina": 800,
-      "oxygen": 9999,
-      "food": 3150,
-      "weight": 400,
-      "meleeDamage": 50
+      "stamina": 320,
+      "oxygen": 150,
+      "food": 2000,
+      "weight": 250,
+      "meleeDamage": 40
     },
     "taming": {
       "method": "knockout",
-      "torpor": 700,
+      "torpor": 350,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1575
+      "tamingAffinity": 1000
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 37,
+    "saddleLevel": 47,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -853,30 +805,30 @@
     "name": "Megatherium",
     "shortName": "Sloth",
     "baseStats": {
-      "health": 650,
+      "health": 740,
       "stamina": 400,
-      "oxygen": 150,
-      "food": 3500,
-      "weight": 400,
-      "meleeDamage": 40
+      "oxygen": 270,
+      "food": 3000,
+      "weight": 725,
+      "meleeDamage": 32
     },
     "taming": {
       "method": "knockout",
-      "torpor": 600,
+      "torpor": 450,
       "food": [
         "Mejoberry",
         "Azulberry"
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1750
+      "tamingAffinity": 1500
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Pelt"
     ],
-    "saddleLevel": 40,
+    "saddleLevel": 52,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -901,29 +853,29 @@
     "name": "Mosasaurus",
     "shortName": "Mosa",
     "baseStats": {
-      "health": 1400,
-      "stamina": 600,
-      "oxygen": 9999,
-      "food": 4200,
-      "weight": 600,
-      "meleeDamage": 80
+      "health": 3600,
+      "stamina": 400,
+      "oxygen": 150,
+      "food": 8000,
+      "weight": 1300,
+      "meleeDamage": 100
     },
     "taming": {
       "method": "knockout",
-      "torpor": 2500,
+      "torpor": 1250,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Exceptional Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 2100
+      "tamingAffinity": 4000
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 55,
+    "saddleLevel": 78,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -947,23 +899,23 @@
     "name": "Moschops",
     "shortName": "Moschops",
     "baseStats": {
-      "health": 350,
-      "stamina": 200,
+      "health": 375,
+      "stamina": 300,
       "oxygen": 150,
-      "food": 1800,
-      "weight": 250,
-      "meleeDamage": 12
+      "food": 300,
+      "weight": 200,
+      "meleeDamage": 32
     },
     "taming": {
       "method": "passive",
-      "torpor": 0,
+      "torpor": 400,
       "food": [
         "Mejoberry",
         "Sweet Vegetable Cake"
       ],
       "preferredKibble": null,
       "kibbleBonus": 0,
-      "tamingAffinity": 900
+      "tamingAffinity": 150
     },
     "drops": [
       "Raw Meat",
@@ -995,12 +947,12 @@
     "name": "Parasaur",
     "shortName": "Parasaur",
     "baseStats": {
-      "health": 325,
-      "stamina": 250,
+      "health": 200,
+      "stamina": 450,
       "oxygen": 150,
-      "food": 1650,
-      "weight": 350,
-      "meleeDamage": 15
+      "food": 1500,
+      "weight": 480,
+      "meleeDamage": 12
     },
     "taming": {
       "method": "knockout",
@@ -1011,13 +963,13 @@
       ],
       "preferredKibble": null,
       "kibbleBonus": 0,
-      "tamingAffinity": 825
+      "tamingAffinity": 750
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 10,
+    "saddleLevel": 9,
     "temperament": "Flighty",
     "spawnLocations": [
       {
@@ -1043,30 +995,30 @@
     "name": "Pelagornis",
     "shortName": "Pelican",
     "baseStats": {
-      "health": 250,
-      "stamina": 200,
+      "health": 240,
+      "stamina": 180,
       "oxygen": 150,
-      "food": 900,
-      "weight": 180,
-      "meleeDamage": 15
+      "food": 1200,
+      "weight": 150,
+      "meleeDamage": 16
     },
     "taming": {
       "method": "knockout",
-      "torpor": 100,
+      "torpor": 50,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 450
+      "tamingAffinity": 600
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Feather"
     ],
-    "saddleLevel": 28,
+    "saddleLevel": 43,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -1091,29 +1043,29 @@
     "name": "Plesiosaur",
     "shortName": "Plesi",
     "baseStats": {
-      "health": 1100,
-      "stamina": 500,
-      "oxygen": 9999,
-      "food": 3200,
-      "weight": 500,
-      "meleeDamage": 55
+      "health": 2400,
+      "stamina": 800,
+      "oxygen": 150,
+      "food": 5000,
+      "weight": 800,
+      "meleeDamage": 75
     },
     "taming": {
       "method": "knockout",
-      "torpor": 2000,
+      "torpor": 900,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Exceptional Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1600
+      "tamingAffinity": 2500
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 45,
+    "saddleLevel": 64,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -1138,28 +1090,28 @@
     "shortName": "Pt",
     "baseStats": {
       "health": 210,
-      "stamina": 200,
+      "stamina": 150,
       "oxygen": 150,
-      "food": 900,
+      "food": 1200,
       "weight": 120,
-      "meleeDamage": 15
+      "meleeDamage": 18
     },
     "taming": {
       "method": "knockout",
-      "torpor": 120,
+      "torpor": 100,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 450
+      "tamingAffinity": 600
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 24,
+    "saddleLevel": 38,
     "temperament": "Flighty",
     "spawnLocations": [
       {
@@ -1184,30 +1136,30 @@
     "name": "Quetzalcoatlus",
     "shortName": "Quetz",
     "baseStats": {
-      "health": 800,
-      "stamina": 400,
+      "health": 1200,
+      "stamina": 800,
       "oxygen": 150,
-      "food": 2500,
-      "weight": 600,
-      "meleeDamage": 20
+      "food": 1200,
+      "weight": 800,
+      "meleeDamage": 32
     },
     "taming": {
       "method": "knockout",
-      "torpor": 750,
+      "torpor": 1850,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Exceptional Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1250
+      "tamingAffinity": 600
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Feather"
     ],
-    "saddleLevel": 55,
+    "saddleLevel": 76,
     "temperament": "Flighty",
     "spawnLocations": [
       {
@@ -1232,12 +1184,12 @@
     "name": "Raptor",
     "shortName": "Raptor",
     "baseStats": {
-      "health": 350,
-      "stamina": 250,
+      "health": 200,
+      "stamina": 150,
       "oxygen": 150,
       "food": 1200,
-      "weight": 200,
-      "meleeDamage": 40
+      "weight": 140,
+      "meleeDamage": 15
     },
     "taming": {
       "method": "knockout",
@@ -1248,7 +1200,7 @@
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1500
+      "tamingAffinity": 600
     },
     "drops": [
       "Raw Meat",
@@ -1284,13 +1236,13 @@
       "health": 1100,
       "stamina": 420,
       "oxygen": 150,
-      "food": 4000,
+      "food": 3000,
       "weight": 500,
-      "meleeDamage": 100
+      "meleeDamage": 62
     },
     "taming": {
       "method": "knockout",
-      "torpor": 2500,
+      "torpor": 1550,
       "food": [
         "Raw Meat",
         "Prime Meat",
@@ -1298,13 +1250,13 @@
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 3780
+      "tamingAffinity": 1500
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 40,
+    "saddleLevel": 74,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -1330,30 +1282,30 @@
     "name": "Sabertooth Salmon",
     "shortName": "Sabertooth",
     "baseStats": {
-      "health": 350,
-      "stamina": 300,
+      "health": 250,
+      "stamina": 200,
       "oxygen": 150,
-      "food": 1500,
+      "food": 1200,
       "weight": 200,
-      "meleeDamage": 45
+      "meleeDamage": 29
     },
     "taming": {
       "method": "knockout",
-      "torpor": 300,
+      "torpor": 480,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 750
+      "tamingAffinity": 600
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Pelt"
     ],
-    "saddleLevel": 30,
+    "saddleLevel": 37,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -1378,11 +1330,11 @@
     "name": "Sarcosuchus",
     "shortName": "Sarco",
     "baseStats": {
-      "health": 600,
-      "stamina": 400,
-      "oxygen": 9999,
-      "food": 2400,
-      "weight": 360,
+      "health": 400,
+      "stamina": 450,
+      "oxygen": 150,
+      "food": 1500,
+      "weight": 300,
       "meleeDamage": 35
     },
     "taming": {
@@ -1394,7 +1346,7 @@
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1200
+      "tamingAffinity": 750
     },
     "drops": [
       "Raw Meat",
@@ -1426,29 +1378,29 @@
     "name": "Spinosaurus",
     "shortName": "Spino",
     "baseStats": {
-      "health": 825,
-      "stamina": 480,
-      "oxygen": 150,
-      "food": 4200,
-      "weight": 450,
-      "meleeDamage": 50
+      "health": 700,
+      "stamina": 350,
+      "oxygen": 650,
+      "food": 2600,
+      "weight": 350,
+      "meleeDamage": 40
     },
     "taming": {
       "method": "knockout",
-      "torpor": 1200,
+      "torpor": 700,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 2100
+      "tamingAffinity": 1300
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 47,
+    "saddleLevel": 71,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -1473,29 +1425,29 @@
     "name": "Stegosaurus",
     "shortName": "Stego",
     "baseStats": {
-      "health": 750,
-      "stamina": 260,
+      "health": 650,
+      "stamina": 300,
       "oxygen": 150,
-      "food": 3000,
-      "weight": 400,
-      "meleeDamage": 25
+      "food": 6000,
+      "weight": 500,
+      "meleeDamage": 42
     },
     "taming": {
       "method": "knockout",
-      "torpor": 575,
+      "torpor": 400,
       "food": [
         "Mejoberry",
         "Azulberry"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 1500
+      "tamingAffinity": 3000
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 22,
+    "saddleLevel": 26,
     "temperament": "Passive",
     "spawnLocations": [
       {
@@ -1522,29 +1474,29 @@
     "name": "Tapejara",
     "shortName": "Tape",
     "baseStats": {
-      "health": 350,
-      "stamina": 300,
+      "health": 325,
+      "stamina": 250,
       "oxygen": 150,
-      "food": 1200,
-      "weight": 250,
+      "food": 1600,
+      "weight": 280,
       "meleeDamage": 18
     },
     "taming": {
       "method": "knockout",
-      "torpor": 200,
+      "torpor": 350,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Superior Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 600
+      "tamingAffinity": 800
     },
     "drops": [
       "Raw Meat",
       "Hide"
     ],
-    "saddleLevel": 50,
+    "saddleLevel": 55,
     "temperament": "Flighty",
     "spawnLocations": [
       {
@@ -1569,30 +1521,30 @@
     "name": "Therizinosaur",
     "shortName": "Theri",
     "baseStats": {
-      "health": 900,
-      "stamina": 400,
+      "health": 870,
+      "stamina": 300,
       "oxygen": 150,
-      "food": 4200,
-      "weight": 450,
-      "meleeDamage": 35
+      "food": 3000,
+      "weight": 365,
+      "meleeDamage": 52
     },
     "taming": {
       "method": "knockout",
-      "torpor": 1000,
+      "torpor": 900,
       "food": [
         "Mejoberry",
         "Azulberry"
       ],
       "preferredKibble": "Exceptional Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 2100
+      "tamingAffinity": 1500
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Pelt"
     ],
-    "saddleLevel": 45,
+    "saddleLevel": 69,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
@@ -1617,23 +1569,23 @@
     "name": "Triceratops",
     "shortName": "Trike",
     "baseStats": {
-      "health": 750,
-      "stamina": 300,
+      "health": 375,
+      "stamina": 150,
       "oxygen": 150,
       "food": 3000,
-      "weight": 400,
-      "meleeDamage": 30
+      "weight": 365,
+      "meleeDamage": 32
     },
     "taming": {
       "method": "knockout",
-      "torpor": 400,
+      "torpor": 250,
       "food": [
         "Mejoberry",
         "Azulberry"
       ],
       "preferredKibble": "Basic Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 547
+      "tamingAffinity": 1500
     },
     "drops": [
       "Raw Meat",
@@ -1666,36 +1618,84 @@
     "name": "Yutyrannus",
     "shortName": "Yuty",
     "baseStats": {
-      "health": 1200,
-      "stamina": 500,
+      "health": 1100,
+      "stamina": 420,
       "oxygen": 150,
-      "food": 5000,
-      "weight": 550,
-      "meleeDamage": 100
+      "food": 3000,
+      "weight": 500,
+      "meleeDamage": 55
     },
     "taming": {
       "method": "knockout",
-      "torpor": 2000,
+      "torpor": 1200,
       "food": [
         "Raw Meat",
         "Prime Meat"
       ],
       "preferredKibble": "Exceptional Kibble",
       "kibbleBonus": 0.5,
-      "tamingAffinity": 2500
+      "tamingAffinity": 1500
     },
     "drops": [
       "Raw Meat",
       "Hide",
       "Pelt"
     ],
-    "saddleLevel": 55,
+    "saddleLevel": 80,
     "temperament": "Aggressive",
     "spawnLocations": [
       {
         "map": "The Island",
         "biomes": [
           "Snow"
+        ]
+      }
+    ],
+    "statScaling": {
+      "health": 0.2,
+      "stamina": 0.1,
+      "oxygen": 0.1,
+      "food": 0.1,
+      "weight": 0.02,
+      "meleeDamage": 0.05,
+      "torpor": 0.06
+    }
+  },
+  "Daeodon": {
+    "name": "Daeodon",
+    "shortName": "Daeodon",
+    "baseStats": {
+      "health": 900,
+      "stamina": 250,
+      "oxygen": 150,
+      "food": 2500,
+      "weight": 400,
+      "meleeDamage": 29
+    },
+    "taming": {
+      "method": "knockout",
+      "torpor": 800,
+      "food": [
+        "Raw Meat",
+        "Cooked Meat"
+      ],
+      "preferredKibble": null,
+      "kibbleBonus": 0,
+      "tamingAffinity": 1250
+    },
+    "drops": [
+      "Raw Meat",
+      "Hide",
+      "Pelt"
+    ],
+    "saddleLevel": 59,
+    "temperament": "Passive",
+    "spawnLocations": [
+      {
+        "map": "The Island",
+        "biomes": [
+          "Snow",
+          "Mountain"
         ]
       }
     ],
