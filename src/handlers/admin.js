@@ -1,21 +1,42 @@
-const { EmbedBuilder } = require('discord.js');
+const { EmbedBuilder, MessageFlags } = require('discord.js');
 const { formatUptime } = require('../utils/helpers');
+const configManager = require('../utils/configManager');
+const { buildConfigEmbed } = require('../utils/embedBuilder');
 
 function checkAdmin(interaction) {
-  if (!interaction.member?.permissions?.has?.('ManageGuild')) {
-    return interaction.reply({
+  const perms = interaction.memberPermissions;
+  if (!perms?.has?.('ManageGuild') && !perms?.has?.('Administrator')) {
+    interaction.reply({
       content: 'You need the **Manage Server** permission to use admin commands.',
-      ephemeral: true,
+      flags: MessageFlags.Ephemeral,
     });
+    return false;
   }
   return true;
 }
 
-async function execute(interaction) {
+async function execute(interaction, data) {
   if (!checkAdmin(interaction)) return;
   const sub = interaction.options.getSubcommand();
 
   switch (sub) {
+    case 'config-show': {
+      const items = configManager.getAll(data);
+      return interaction.reply({ embeds: [buildConfigEmbed(items)] });
+    }
+    case 'config-set': {
+      const key = interaction.options.getString('key');
+      const value = interaction.options.getString('value');
+      try {
+        const result = configManager.set(key, value);
+        configManager.load(data);
+        return interaction.reply({ content: `**${result.label}** set to **${result.value}**`, flags: MessageFlags.Ephemeral });
+      } catch (err) {
+        return interaction.reply({ content: err.message, flags: MessageFlags.Ephemeral });
+      }
+    }
+
+    case 'setup':
     case 'setup': {
       const embed = new EmbedBuilder()
         .setColor(0x00AAFF).setTitle('ARK Bot Setup')
@@ -49,7 +70,7 @@ async function execute(interaction) {
       return interaction.reply({
         content: 'Backup created:',
         files: [{ attachment: Buffer.from(backup, 'utf-8'), name: `ark-bot-backup-${Date.now()}.json` }],
-        ephemeral: true,
+        flags: MessageFlags.Ephemeral,
       });
     }
 
@@ -65,14 +86,14 @@ async function execute(interaction) {
     }
 
     case 'deaths-disable':
-      return interaction.reply({ content: 'Death announcements disabled.', ephemeral: true });
+      return interaction.reply({ content: 'Death announcements disabled.', flags: MessageFlags.Ephemeral });
 
     case 'logs-connect': {
       const url = interaction.options.getString('url');
       try { new URL(url); } catch {
-        return interaction.reply({ content: 'Invalid URL format.', ephemeral: true });
+        return interaction.reply({ content: 'Invalid URL format.', flags: MessageFlags.Ephemeral });
       }
-      return interaction.reply({ content: `Log connection configured: ${url}`, ephemeral: true });
+      return interaction.reply({ content: `Log connection configured: ${url}`, flags: MessageFlags.Ephemeral });
     }
   }
 }

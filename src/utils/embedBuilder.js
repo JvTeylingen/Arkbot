@@ -210,6 +210,50 @@ function buildGatherEmbed(resource, dinoNames, toolNames) {
   return embed.setTimestamp().setFooter({ text: 'ARK: Survival Evolved' });
 }
 
+function buildTamingEmbed(dino, tameData) {
+  const foods = tameData.foods.join(', ');
+  const kibble = tameData.preferredKibble ?? 'None';
+  const bonus = tameData.kibbleBonus ? `${(tameData.kibbleBonus * 100)}%` : 'N/A';
+  const timeH = Math.floor(tameData.estimatedTimeMin / 60);
+  const timeM = tameData.estimatedTimeMin % 60;
+  const timeStr = timeH > 0 ? `${timeH}h ${timeM}m` : `${timeM}m`;
+
+  return new EmbedBuilder()
+    .setColor(0xFF8844)
+    .setTitle(`Taming: ${dino.name} (Level ${tameData.level})`)
+    .addFields(
+      { name: 'Method', value: tameData.method.charAt(0).toUpperCase() + tameData.method.slice(1), inline: true },
+      { name: 'Torpor', value: tameData.torpor.toString(), inline: true },
+      { name: 'Preferred Food', value: tameData.bestFood, inline: true },
+      { name: 'Accepts', value: foods, inline: false },
+      { name: 'Preferred Kibble', value: kibble, inline: true },
+      { name: 'Kibble Bonus', value: bonus, inline: true },
+      { name: 'Food Needed (est.)', value: `${tameData.totalEats}x ${tameData.bestFood}`, inline: false },
+      { name: 'Estimated Time', value: `${timeStr} @ ${tameData.speedMult}x`, inline: true },
+      { name: 'Narcotics Needed (est.)', value: `~${tameData.narcoticsNeeded} narco`, inline: true },
+    )
+    .setTimestamp()
+    .setFooter({ text: 'ARK: Survival Evolved' });
+}
+
+function buildConfigEmbed(items) {
+  const lines = items.map(it => {
+    const check = it.overridden ? '✅' : '⬜';
+    return `${check} **${it.label}**: ${it.current} (default: ${it.default})`;
+  });
+
+  return new EmbedBuilder()
+    .setColor(0x44AADD)
+    .setTitle('Server Config — Overrides')
+    .setDescription(lines.join('\n'))
+    .addFields(
+      { name: 'Legend', value: '✅ = Override active\n⬜ = Using default', inline: false },
+      { name: 'How to change', value: '`/ark admin config-set <key> <value>`\nKeys: tamingSpeedMultiplier, maturationMultiplier, incubationMultiplier, craftingSpeedMultiplier, kibbleEffectiveness', inline: false },
+    )
+    .setTimestamp()
+    .setFooter({ text: 'ARK: Survival Evolved' });
+}
+
 function formatSpawns(spawns) {
   if (!spawns || !spawns.length) return 'N/A';
   return spawns.map(s => `**${s.map}**: ${s.biomes.join(', ')}`).join('\n');
@@ -228,4 +272,6 @@ module.exports = {
   buildCraftEmbed,
   buildRawCraftEmbed,
   buildGatherEmbed,
+  buildTamingEmbed,
+  buildConfigEmbed,
 };

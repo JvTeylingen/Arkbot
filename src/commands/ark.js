@@ -1,4 +1,4 @@
-const { SlashCommandBuilder } = require('discord.js');
+const { SlashCommandBuilder, MessageFlags } = require('discord.js');
 
 const core = require('../handlers/core');
 const suggest = require('../handlers/suggest');
@@ -52,7 +52,10 @@ module.exports = {
         .addSubcommand(sub => sub.setName('craft').setDescription('Calculate crafting requirements')
           .addStringOption(opt => opt.setName('item').setDescription('Item name').setAutocomplete(true).setRequired(true)))
         .addSubcommand(sub => sub.setName('raw').setDescription('Calculate full raw material cost')
-          .addStringOption(opt => opt.setName('item').setDescription('Item name').setAutocomplete(true).setRequired(true))))
+          .addStringOption(opt => opt.setName('item').setDescription('Item name').setAutocomplete(true).setRequired(true)))
+        .addSubcommand(sub => sub.setName('tame').setDescription('Calculate taming time for a dino')
+          .addStringOption(opt => opt.setName('dino').setDescription('Dino name').setAutocomplete(true).setRequired(true))
+          .addIntegerOption(opt => opt.setName('level').setDescription('Wild dino level (default: 1)').setMinValue(1).setMaxValue(300).setRequired(false))))
     .addSubcommandGroup(group =>
       group.setName('admin').setDescription('Bot administration')
         .addSubcommand(sub => sub.setName('setup').setDescription('Run initial bot setup'))
@@ -61,7 +64,17 @@ module.exports = {
         .addSubcommand(sub => sub.setName('deaths-enable').setDescription('Enable automatic death announcements'))
         .addSubcommand(sub => sub.setName('deaths-disable').setDescription('Disable death announcements'))
         .addSubcommand(sub => sub.setName('logs-connect').setDescription('Connect to server logs')
-          .addStringOption(opt => opt.setName('url').setDescription('FTP/SFTP URL or webhook URL').setRequired(true)))),
+          .addStringOption(opt => opt.setName('url').setDescription('FTP/SFTP URL or webhook URL').setRequired(true)))
+        .addSubcommand(sub => sub.setName('config-show').setDescription('Show all server config overrides'))
+        .addSubcommand(sub => sub.setName('config-set').setDescription('Set a server multiplier value')
+          .addStringOption(opt => opt.setName('key').setDescription('Config key').addChoices(
+            { name: 'Taming Speed', value: 'tamingSpeedMultiplier' },
+            { name: 'Maturation Speed', value: 'maturationMultiplier' },
+            { name: 'Incubation Speed', value: 'incubationMultiplier' },
+            { name: 'Crafting Speed', value: 'craftingSpeedMultiplier' },
+            { name: 'Kibble Effectiveness', value: 'kibbleEffectiveness' },
+          ).setRequired(true))
+          .addStringOption(opt => opt.setName('value').setDescription('Numeric value (3 = 3x faster)').setRequired(true)))),
 
   async autocomplete(interaction, data) {
     const group = interaction.options.getSubcommandGroup() || 'core';
@@ -95,6 +108,7 @@ module.exports = {
             name: 'Calculations',
             value:
               '`/ark calc breed <dino>` — Incubation, maturation, imprint timings\n' +
+              '`/ark calc tame <dino>` — Taming time, food, narcotics estimate\n' +
               '`/ark calc craft <item>` — Crafting ingredients and station\n' +
               '`/ark calc raw <item>` — Raw material cost breakdown',
           },
@@ -112,7 +126,9 @@ module.exports = {
               '`/ark admin backup` — Export data backup\n' +
               '`/ark admin deaths-enable` — Enable death feed\n' +
               '`/ark admin deaths-disable` — Disable death feed\n' +
-              '`/ark admin logs-connect` — Connect ARK server log watcher',
+              '`/ark admin logs-connect` — Connect ARK server log watcher\n' +
+              '`/ark admin config-show` — View server config overrides\n' +
+              '`/ark admin config-set <key> <value>` — Set a server multiplier',
           },
         )
         .setTimestamp()
@@ -124,6 +140,6 @@ module.exports = {
     const group = interaction.options.getSubcommandGroup() || 'core';
     const handler = handlers[group];
     if (handler) return handler.execute(interaction, data);
-    return interaction.reply({ content: 'Unknown command.', ephemeral: true });
+    return interaction.reply({ content: 'Unknown command.', flags: MessageFlags.Ephemeral });
   },
 };

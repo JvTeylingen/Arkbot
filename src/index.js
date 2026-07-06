@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { Client, GatewayIntentBits, Collection } = require('discord.js');
+const { Client, GatewayIntentBits, Collection, MessageFlags } = require('discord.js');
 const path = require('node:path');
 const fs = require('node:fs');
 
@@ -21,7 +21,9 @@ for (const file of commandFiles) {
 }
 
 const dataLoader = require('./utils/dataLoader');
+const configManager = require('./utils/configManager');
 client.data = dataLoader.loadAll();
+configManager.load(client.data);
 
 require('./keepalive');
 
@@ -51,10 +53,12 @@ client.on('interactionCreate', async interaction => {
     await command.execute(interaction, client.data);
   } catch (error) {
     console.error(error);
-    await interaction.reply({
-      content: 'There was an error executing that command!',
-      ephemeral: true,
-    });
+    if (!interaction.replied && !interaction.deferred) {
+      await interaction.reply({
+        content: 'There was an error executing that command!',
+        flags: MessageFlags.Ephemeral,
+      });
+    }
   }
 });
 

@@ -4,7 +4,7 @@
     "maturationMultiplier": 1.0,
     "imprintInterval": "8h",
     "mutationChance": 0.025,
-    "description": "Set multipliers lower than 1.0 for accelerated breeding (common on unofficial servers). Default is official rates."
+    "description": "Multiplier relative to official rates. E.g., 2 = 2x faster breeding. Default 1 = official."
   },
   "dinoBreeding": {
     "Rex": {
@@ -124,5 +124,23 @@
     "description": "Taming speed multiplier. Higher = faster taming. Default official is 1.0.",
     "tamingSpeedMultiplier": 1.0,
     "kibbleEffectiveness": 0.5
+  },
+  "foodData": {
+    "Mejoberry": { "foodValue": 20, "tamingAffinity": 14.4, "category": "berry" },
+    "Azulberry": { "foodValue": 15, "tamingAffinity": 8, "category": "berry" },
+    "Raw Meat": { "foodValue": 50, "tamingAffinity": 50, "category": "meat" },
+    "Prime Meat": { "foodValue": 95, "tamingAffinity": 150, "category": "meat" },
+    "Cooked Meat": { "foodValue": 25, "tamingAffinity": 25, "category": "meat" },
+    "Basic Kibble": { "foodValue": 60, "tamingAffinity": 60, "category": "kibble" },
+    "Superior Kibble": { "foodValue": 80, "tamingAffinity": 120, "category": "kibble" },
+    "Exceptional Kibble": { "foodValue": 100, "tamingAffinity": 160, "category": "kibble" }
+  },
+  "tamingData": {
+    "torporPerNarcotic": 40,
+    "torporPerNarcoberry": 7.5,
+    "narcoberryDuration": 4,
+    "eatingInterval": 30,
+    "berryEatingInterval": 17,
+    "description": "Torpor values in torpor points. Eating intervals in seconds."
   }
 }

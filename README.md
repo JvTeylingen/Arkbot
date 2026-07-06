@@ -14,8 +14,11 @@ A lightweight Discord bot for **ARK: Survival Evolved** game knowledge, built wi
 | `/ark engram <level>` | All engrams unlocked at a given player level |
 | `/ark next <level>` | Progression checklist with objectives, taming targets, base priorities |
 | `/ark calc breed <dino>` | Incubation, maturation, imprint intervals, mutation chances |
+| `/ark calc tame <dino> [level]` | Taming time estimate, food/narcotics needed, torpor scaling with level |
 | `/ark calc craft <item>` | Exact material requirements, crafting station, and time |
 | `/ark admin setup` | Initial bot setup wizard |
+| `/ark admin config-show` | View all overridable multipliers with current and default values |
+| `/ark admin config-set <key> <value>` | Persist a server multiplier override |
 | `/ark admin status` | Bot health: uptime, memory, data load status |
 | `/ark admin deaths` | Toggle automatic death announcements |
 | `/ark admin logs` | Connect to ARK server logs via FTP/SFTP/webhook |

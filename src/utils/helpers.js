@@ -12,7 +12,8 @@ function inferDinoUses(dino) {
 function calculateBreedData(dino, calculators) {
   const dinoBreed = calculators.dinoBreeding?.[dino.shortName || dino.name];
   const formulas = calculators.breedingFormulas || {};
-  const mult = formulas.maturationMultiplier || 1;
+  const raw = formulas.maturationMultiplier || 1;
+  const mult = raw > 0 ? 1 / raw : 1;
 
   if (dinoBreed) {
     return {
@@ -34,6 +35,66 @@ function calculateBreedData(dino, calculators) {
   };
 }
 
+function calculateTamingData(dino, calculators, level = 1) {
+  const tamingFormulas = calculators.tamingFormulas || {};
+  const tamingData = calculators.tamingData || {};
+  const foodData = calculators.foodData || {};
+  const speedMult = tamingFormulas.tamingSpeedMultiplier || 1;
+
+  const scaling = dino.statScaling || {};
+  const expectedPoints = Math.max(0, (level - 1) / 6);
+  const foodMult = 1 + expectedPoints * (scaling.food ?? 0.1);
+  const torporMult = 1 + expectedPoints * (scaling.torpor ?? 0.06);
+
+  const method = dino.taming.method || 'knockout';
+  const torpor = Math.round((dino.taming.torpor || 0) * torporMult);
+  const preferredKibble = dino.taming.preferredKibble || null;
+  const kibbleBonus = dino.taming.kibbleBonus || 0;
+
+  const foods = dino.taming.food || [];
+  const bestFood = foods.reduce((best, f) => {
+    const fv = foodData[f]?.tamingAffinity || 0;
+    const bv = foodData[best]?.tamingAffinity || 0;
+    return fv > bv ? f : best;
+  }, foods[0] || 'Unknown');
+
+  const bestFoodAffinity = foodData[bestFood]?.tamingAffinity || 0;
+  const eatingInterval = foodData[bestFood]?.category === 'berry'
+    ? (tamingData.berryEatingInterval || 17)
+    : (tamingData.eatingInterval || 10);
+
+  let effectiveAffinity = bestFoodAffinity;
+  if (preferredKibble && kibbleBonus > 0) {
+    const kibbleAffinity = foodData[preferredKibble]?.tamingAffinity || 0;
+    effectiveAffinity = Math.max(effectiveAffinity, kibbleAffinity * (1 + kibbleBonus));
+  }
+
+  const baseFood = Math.round((dino.baseStats?.food || 1000) * foodMult);
+  const baseAffinity = dino.taming.tamingAffinity || Math.round((dino.baseStats?.food || 1000) * 0.5);
+  const totalAffinityNeeded = Math.max(1, Math.round(baseAffinity * foodMult));
+  const totalEats = Math.ceil(totalAffinityNeeded / Math.max(1, effectiveAffinity) / speedMult);
+  const rawTimeMin = (totalEats * eatingInterval) / 60;
+  const adjustedTimeMin = Math.round(rawTimeMin);
+
+  const torporPerNarcotic = tamingData.torporPerNarcotic || 40;
+  const narcoticsNeeded = Math.ceil(torpor / torporPerNarcotic);
+
+  return {
+    method,
+    torpor,
+    foods,
+    bestFood,
+    preferredKibble,
+    kibbleBonus,
+    baseFood,
+    level,
+    totalEats,
+    estimatedTimeMin: adjustedTimeMin || 1,
+    narcoticsNeeded,
+    speedMult,
+  };
+}
+
 function formatUptime(seconds) {
   const d = Math.floor(seconds / 86400);
   const h = Math.floor((seconds % 86400) / 3600);
@@ -45,4 +106,4 @@ function formatUptime(seconds) {
   return parts.join(' ') || '<1m';
 }
 
-module.exports = { inferDinoUses, calculateBreedData, formatUptime };
+module.exports = { inferDinoUses, calculateBreedData, calculateTamingData, formatUptime };
