@@ -196,7 +196,7 @@
     "spawnLocations": [
       {"map": "The Island", "biomes": ["Let Raw Meat spoil in inventory"]}
     ],
-    "bestGatheringTools": ["Preserving Bin (slows spoilage)", "Let meat rot"],
+    "bestGatheringTools": ["Let meat rot"],
     "weight": 0.1, "uses": ["Narcotics", "Taming"]
   }
 }
