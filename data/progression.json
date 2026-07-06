@@ -1,152 +1,307 @@
 {
   "1": {
-    "objectives": ["Punch trees for Thatch and Wood", "Pick up stones for Stone and Flint", "Craft a Pick and Hatchet", "Kill Dodos for meat", "Make a Campfire and cook meat"],
+    "objectives": [
+      "Punch trees for Thatch and Wood, and pick up rocks for Stone and Flint",
+      "Craft a Stone Pick and Stone Hatchet as soon as the engram points allow",
+      "Kill Dodos for easy meat and hide — they can't fight back",
+      "Build a Campfire and cook Raw Meat before it spoils",
+      "Pro tip: pick a spawn beach near a river mouth or cove — flat land plus fresh water makes your first base and taming pen much easier"
+    ],
     "tameSuggestions": ["Dodo"],
     "homeSuggestions": ["Beach (South)", "Beach (East)"]
   },
   "2": {
-    "objectives": ["Craft a Mortar and Pestle", "Make Narcotics from Narcoberries + Spoiled Meat", "Build a Thatch foundation and walls", "Craft a Basic Bedroll", "Create a Storage Box for materials"],
-    "tameSuggestions": ["Dodo", "Dilophosaur"],
+    "objectives": [
+      "Craft a Bow — your first real ranged weapon and taming tool",
+      "Build Thatch foundations and walls for a starter shelter",
+      "Craft a Simple Bed to set a respawn point",
+      "Make a Storage Box so loose materials stop cluttering your inventory",
+      "Pro tip: put your bed and storage inside walls, not out in the open — a sleeping survivor is an easy meal for a Dilophosaur"
+    ],
+    "tameSuggestions": ["Dodo"],
     "homeSuggestions": ["Beach (South)", "Beach (East)"]
   },
   "3": {
-    "objectives": ["Craft a Bow and Arrows", "Hunt smaller dinos for Hide", "Make Sparkpowder (Flint + Stone)", "Start collecting Narcoberries for taming"],
-    "tameSuggestions": ["Dilophosaur"],
+    "objectives": [
+      "Craft Stone Arrows and start hunting small dinos for Hide",
+      "Make Sparkpowder (Flint + Stone) — you'll need it for gunpowder and explosives later",
+      "Craft a Slingshot as a cheap, low-ammo way to knock out very low-level creatures",
+      "Start stockpiling Narcoberries so you're ready the moment Narcotics unlock"
+    ],
+    "tameSuggestions": ["Dodo"],
     "homeSuggestions": ["Beach (South)", "Beach (West)"]
   },
   "5": {
-    "objectives": ["Upgrade to a Wooden base", "Craft a Cooking Pot", "Make a Preserving Bin for longer food storage", "Build a Dinosaur Gateway for future taming pens"],
-    "tameSuggestions": ["Parasaur", "Trike"],
-    "homeSuggestions": ["Beach", "River Valley"]
+    "objectives": [
+      "At level 6 you'll unlock the Mortar and Pestle — craft one right away, it's the gateway to Narcotics and Cementing Paste",
+      "Make Narcotics from Narcoberries and Spoiled Meat so you always have some on hand",
+      "Craft a Bola for utility — it won't work on everything, but it's a cheap way to freeze a Dilophosaur or Raptor in place",
+      "Pro tip: don't throw away Raw Meat that's about to expire — let it spoil on purpose, since Spoiled Meat is a required Narcotics ingredient"
+    ],
+    "tameSuggestions": ["Dodo", "Dilophosaur"],
+    "homeSuggestions": ["Beach (South)", "Beach (East)"]
   },
   "8": {
-    "objectives": ["Craft full Hide armor set", "Make a Waterskin for water runs", "Start building a dedicated taming pen", "Explore nearby biomes for resources"],
-    "tameSuggestions": ["Parasaur", "Trike", "Raptor", "Iguanodon"],
+    "objectives": [
+      "Upgrade to a Wood-tier base — real walls and a door that actually keep predators out",
+      "Craft full Hide armor for a solid defense boost over cloth",
+      "Tame your first Parasaur — it's non-aggressive and easy to knock out with a Bow, a safe confidence-builder before anything bigger",
+      "Scout the coastline and forest edge for resource nodes and a future base spot"
+    ],
+    "tameSuggestions": ["Parasaur", "Iguanodon"],
     "homeSuggestions": ["River Valley", "Forest Edge"]
   },
   "10": {
-    "objectives": ["Tame a Parasaur for berry gathering and transport", "Craft a Smithy for advanced crafting", "Build a Forge to smelt Metal", "Craft a Pike for better damage", "Make Metal Arrows for the Crossbow"],
-    "tameSuggestions": ["Parasaur", "Trike", "Moschops"],
+    "objectives": [
+      "Craft a Waterskin so resource runs aren't cut short by thirst",
+      "Build a simple Wood taming pen — a small box with a one-tile door and a ramp works for almost anything that isn't a flier",
+      "Craft a Cooking Pot and a Preserving Bin so meat and berries stop spoiling on you",
+      "Start scouting nearby biomes for Metal nodes",
+      "Pro tip: never knock out a creature you're not fully ready to tame — half-finishing a tame just burns narcotics and food for nothing"
+    ],
+    "tameSuggestions": ["Parasaur", "Iguanodon", "Moschops"],
     "homeSuggestions": ["River Valley", "Forest Edge", "Beach (West)"]
   },
   "12": {
-    "objectives": ["Craft a Parachute for safety", "Tame a Moschops for versatile gathering", "Make a Whip for taming utility", "Explore higher altitude areas for Crystal"],
-    "tameSuggestions": ["Moschops", "Iguanodon", "Equus"],
+    "objectives": [
+      "Tame a Moschops — a strong all-round early gatherer for berries, thatch, hide, and even some metal",
+      "Craft a Parachute so cliffs and drops stop being a death sentence",
+      "Build a Dinosaur Gateway and Gate for a proper taming pen",
+      "Start exploring higher-altitude terrain for Crystal and Silica Pearls"
+    ],
+    "tameSuggestions": ["Moschops", "Equus", "Iguanodon"],
     "homeSuggestions": ["Forest", "River Valley"]
   },
   "15": {
-    "objectives": ["Tame a Trike for berry and thatch gathering", "Craft a Refining Forge for faster metal processing", "Build a stone base for better defense", "Tame an Equus for a fast land mount", "Craft a Compass for navigation"],
-    "tameSuggestions": ["Trike", "Equus", "Iguanodon", "Raptor"],
+    "objectives": [
+      "Tame a Trike now, not at level 5 — waiting until you've got a Bow (or Crossbow) and some Narcotics makes for a far safer, cheaper tame than trying it back on day one",
+      "Craft a Trike Saddle so your new tank can actually be ridden",
+      "Tame an Equus for a fast, low-maintenance land mount",
+      "Craft a Compass for navigation",
+      "Pro tip: never shoot a Trike in the head — its frill gives it extra protection there, always aim for the body"
+    ],
+    "tameSuggestions": ["Trike", "Equus", "Iguanodon"],
     "homeSuggestions": ["Forest", "River Valley", "Beach (North)"]
   },
   "18": {
-    "objectives": ["Tame a Raptor for combat and scouting", "Craft a Crossbow for better ranged damage and taming", "Build a Raptor Saddle (level 18)", "Start collecting Prime Meat for better taming", "Explore caves for Chitin"],
-    "tameSuggestions": ["Raptor", "Pteranodon", "Iguanodon"],
+    "objectives": [
+      "Tame a Raptor for speed, combat, and scouting",
+      "Build a Raptor Saddle",
+      "Start collecting Prime Meat from bigger kills — it tames much faster than berries or regular meat",
+      "Explore caves for Chitin and Silica Pearls (bring torches or a flashlight attachment)"
+    ],
+    "tameSuggestions": ["Raptor", "Trike", "Iguanodon"],
     "homeSuggestions": ["Forest", "River Valley", "Coastal Cliffs"]
   },
   "20": {
-    "objectives": ["Tame a Pteranodon for aerial scouting", "Craft Gunpowder and Simple Bullets", "Craft a Simple Pistol for defense", "Build a Carbonemys turtle for early tank", "Start farming with Crop Plots"],
-    "tameSuggestions": ["Pteranodon", "Carbonemys", "Raptor", "Trike"],
+    "objectives": [
+      "Build a Smithy — this opens up metal tools and mid-tier weapons",
+      "Craft a Refining Forge to turn Metal into Metal Ingots and Oil into Gasoline",
+      "Craft a Crossbow — a straight upgrade over the Bow for both combat and taming",
+      "Tame a Pteranodon for fast aerial scouting and river crossings",
+      "Set up Crop Plots for a food supply that doesn't depend on hunting"
+    ],
+    "tameSuggestions": ["Pteranodon", "Trike", "Raptor"],
     "homeSuggestions": ["Coastal Cliffs", "River Valley", "Beach (North)"]
   },
   "22": {
-    "objectives": ["Tame a Stegosaurus for fiber and berry gathering", "Build a Stone Hatchframe for your base", "Set up irrigation for crops", "Start taming a Doedicurus for stone gathering"],
+    "objectives": [
+      "Tame a Stegosaurus for strong fiber, berry, and thatch gathering",
+      "Craft Metal Pick and Hatchet — a big jump in gathering speed over Stone",
+      "Set up irrigation (Water Reservoirs or Intake Pipes) for reliable crop farming",
+      "Start taming a Doedicurus for effectively unlimited Stone and Metal later on"
+    ],
     "tameSuggestions": ["Stegosaurus", "Doedicurus", "Pteranodon"],
     "homeSuggestions": ["Forest", "Plains", "River Valley"]
   },
   "25": {
-    "objectives": ["Craft Metal tools (Pick, Hatchet, Shield)", "Craft a Longneck Rifle with Tranq Darts", "Tame an Ankylosaurus for metal/flint", "Start taming an Argentavis for transport", "Build a Metal foundation base section"],
-    "tameSuggestions": ["Ankylosaurus", "Doedicurus", "Argentavis"],
+    "objectives": [
+      "Craft Metal Arrows for your Crossbow — solid damage against armored dinos",
+      "Tame an Ankylosaurus for fast Metal and Flint farming",
+      "Upgrade base sections to Stone for real defense",
+      "Craft a Metal Shield to soak hits while fighting or taming"
+    ],
+    "tameSuggestions": ["Ankylosaurus", "Doedicurus", "Stegosaurus"],
     "homeSuggestions": ["Near Mountains", "Forest", "Coastal"]
   },
   "27": {
-    "objectives": ["Build full Metal base for protection", "Tame a Sabertooth for hide gathering", "Tame a Beelzebufo for cementing paste", "Tame a Pelagornis for oil gathering", "Make a Chainsaw for mass wood collection"],
-    "tameSuggestions": ["Sabertooth", "Beelzebufo", "Pelagornis", "Ankylosaurus"],
+    "objectives": [
+      "Tame a Sabertooth for fast, reliable Hide farming and a solid mid-game combat mount",
+      "Tame a Beelzebufo — its jump gives safe traversal over swamp, and it's one of the best Cementing Paste farmers",
+      "Push your base to full Metal tier for real security",
+      "Start stockpiling Cementing Paste and Metal Ingots for the crafting stations ahead"
+    ],
+    "tameSuggestions": ["Sabertooth", "Beelzebufo", "Ankylosaurus"],
     "homeSuggestions": ["Near Mountains", "Coastal", "Forest"]
   },
   "30": {
-    "objectives": ["Tame a Doedicurus for endless stone", "Tame a Mammoth for wood gathering", "Tame a Thorny Dragon (Scorched Earth)", "Build a full Metal base with reinforcements", "Create a dedicated taming area"],
-    "tameSuggestions": ["Doedicurus", "Mammoth", "Argentavis", "Sabertooth"],
+    "objectives": [
+      "Finish taming a Doedicurus if you haven't already — it makes stone and metal runs trivial",
+      "Tame a Carbonemys for an early tank that also fishes well",
+      "Reinforce your Metal base and start planning turret placements",
+      "Start a dedicated taming pen away from your main base for bigger, riskier tames"
+    ],
+    "tameSuggestions": ["Doedicurus", "Carbonemys", "Sabertooth"],
     "homeSuggestions": ["Near Mountains", "Forest", "Coastal Base"]
   },
   "32": {
-    "objectives": ["Tame an Argentavis for metal runs", "Tame a Carnotaurus as a guard dino", "Build a smelting facility with multiple forges", "Stockpile metal ingots for future crafting", "Explore underwater areas for Oil and Pearls"],
-    "tameSuggestions": ["Argentavis", "Carnotaurus", "Megalodon"],
+    "objectives": [
+      "Tame an Argentavis — real cargo capacity, it can even carry other tames",
+      "Tame a Carnotaurus as a base guard dino",
+      "Run several Refining Forges at once to keep up with metal demand",
+      "Explore underwater areas for Oil and Pearls (bring fur or hide armor if it's cold)"
+    ],
+    "tameSuggestions": ["Argentavis", "Carnotaurus", "Carbonemys"],
     "homeSuggestions": ["Mountains Base", "Coastal", "Near Resources"]
   },
   "35": {
-    "objectives": ["Build a Fabricator for advanced crafting", "Craft Flak Armor set", "Tame a Sarco for water travel", "Craft a Rocket Launcher for defense", "Start exploring underwater caves"],
-    "tameSuggestions": ["Sarco", "Carnotaurus", "Argentavis", "Megalodon"],
+    "objectives": [
+      "Craft a Longneck Rifle and Tranq Darts — a big step up in range and knockout power for taming",
+      "Tame a Sarco for river travel and fast fish and hide farming",
+      "Start exploring underwater caves and shipwrecks for loot",
+      "Keep breeding stronger metal and gunpowder stockpiles for the crafting stations ahead"
+    ],
+    "tameSuggestions": ["Sarco", "Carnotaurus", "Argentavis"],
     "homeSuggestions": ["Mountains Base", "Near Water", "Coastal Fortress"]
   },
   "37": {
-    "objectives": ["Tame a Baryonyx for swamp travel and fishing", "Craft an Industrial Grill for bulk cooking", "Explore the Swamp Cave", "Tame a Megalodon for ocean exploration", "Set up a Preserving Bin economy"],
-    "tameSuggestions": ["Baryonyx", "Megalodon", "Sarco", "Argentavis"],
+    "objectives": [
+      "Tame a Baryonyx for swamp travel and strong fishing",
+      "Explore the Swamp Cave (bring Chitin or Hazard-tier protection)",
+      "Tame a Megalodon so open ocean stops being a death trap",
+      "Keep a Preserving Bin economy running so meat, berries, and fish don't spoil on long trips"
+    ],
+    "tameSuggestions": ["Baryonyx", "Megalodon", "Sarco"],
     "homeSuggestions": ["Mountains Base", "Coastal", "Near Ocean"]
   },
   "40": {
-    "objectives": ["Tame a Rex for boss fights and meat runs", "Tame an Arthropluera for cave clearing", "Craft a Pump-Action Shotgun", "Craft C4 Charges for mining", "Defeat the Broodmother"],
-    "tameSuggestions": ["Rex", "Arthropluera", "Baryonyx", "Yutyrannus"],
+    "objectives": [
+      "Build a Fabricator (requires a Smithy) — it unlocks the mid-to-late crafting tier",
+      "Craft a Pump-Action Shotgun for strong close-range damage",
+      "Tame a Rex for meat runs and future boss-fighting muscle",
+      "Tame an Arthropluera for safer cave-clearing"
+    ],
+    "tameSuggestions": ["Rex", "Arthropluera", "Baryonyx"],
     "homeSuggestions": ["Fortress Base", "Near Obelisk", "Central Base"]
   },
   "45": {
-    "objectives": ["Tame a Therizinosaur for fiber/wood gathering", "Craft Ghillie Armor for swamp/biosecurity", "Tame a Spino for combat and water mobility", "Craft a Sniper Rifle for hunting", "Defeat the Megapithecus"],
-    "tameSuggestions": ["Therizinosaur", "Spino", "Rex", "Tapejara"],
+    "objectives": [
+      "Take on the Megapithecus first — of the three main Guardians it has the lowest health and no special status-effect attacks, making it the easiest to learn on",
+      "Bring a strong Rex or Therizinosaur squad, ranged weapons for its rock-throw, and a Yutyrannus if you have one",
+      "Craft a Sniper Rifle for safer, longer-range hunting and combat",
+      "Tame a Therizinosaurus for strong fiber and wood gathering plus serious combat power"
+    ],
+    "tameSuggestions": ["Therizinosaur", "Rex", "Tapejara"],
     "homeSuggestions": ["Fortress Base", "Near Obelisk", "Central Base"]
   },
   "50": {
-    "objectives": ["Tame a Yutyrannus for boss buffs", "Build a Generator and electrical grid", "Craft a Vault for secure storage", "Set up Refrigerators for preserving", "Craft SCUBA for deep ocean exploration"],
-    "tameSuggestions": ["Yutyrannus", "Rex", "Quetzalcoatlus", "Mosasaurus"],
+    "objectives": [
+      "Take on the Broodmother next — tougher than the Megapithecus, with torpor-inducing webs and an acid attack to watch for",
+      "Tame a Yutyrannus — its courage roar is a major damage and resistance buff for boss fights",
+      "Build a Generator and start wiring up an electrical grid",
+      "Craft Refrigerators to replace Preserving Bins for large-scale food storage"
+    ],
+    "tameSuggestions": ["Yutyrannus", "Rex", "Tapejara"],
     "homeSuggestions": ["Fortress Base", "Near Obelisk", "Underwater Base"]
   },
   "55": {
-    "objectives": ["Tame a Quetzalcoatlus for aerial metal base", "Tame a Mosasaurus for ocean dominance", "Craft an Industrial Forge for mass metal", "Craft an Air Conditioner for egg incubation", "Defeat the Dragon"],
-    "tameSuggestions": ["Quetzalcoatlus", "Mosasaurus", "Giganotosaurus", "Yutyrannus"],
-    "homeSuggestions": ["Sky Base (Quetz)", "Fortress Base", "Underwater Base"]
+    "objectives": [
+      "Craft SCUBA gear for real deep-ocean exploration",
+      "Tame a Mosasaurus for ocean dominance and safe deep-sea travel",
+      "Build a Vault for secure, fire-resistant storage of your best gear",
+      "Craft an Air Conditioner to make egg incubation reliable if you're starting to breed"
+    ],
+    "tameSuggestions": ["Mosasaurus", "Quetzalcoatlus", "Yutyrannus"],
+    "homeSuggestions": ["Fortress Base", "Sky Base (Quetz)", "Underwater Base"]
   },
   "60": {
-    "objectives": ["Tame a Giganotosaurus for ultimate power", "Craft a Tek Replicator (if Tek enabled)", "Craft full Riot Armor", "Defeat the Overseer", "Ascend to next difficulty"],
-    "tameSuggestions": ["Giganotosaurus", "Quetzalcoatlus", "Mosasaurus", "Yutyrannus"],
-    "homeSuggestions": ["Endgame Fortress", "Sky Base", "Tek Base"]
+    "objectives": [
+      "Tame a Quetzalcoatlus — the Island's biggest flier and a mobile base once saddled",
+      "Craft an Industrial Forge and Industrial Grill to speed up smelting and cooking at scale",
+      "Save the Dragon for last — its fire breath deals damage as a percentage of max health, so bring a Daeodon for healing and high-armor saddles rather than relying on raw HP",
+      "Craft full Flak Armor for serious damage reduction"
+    ],
+    "tameSuggestions": ["Quetzalcoatlus", "Mosasaurus", "Giganotosaurus"],
+    "homeSuggestions": ["Sky Base (Quetz)", "Fortress Base", "Underwater Base"]
   },
   "65": {
-    "objectives": ["Craft Tek weapons and armor", "Start breeding super dinos", "Hunt for high-level wild tames", "Build a Tek base"],
-    "tameSuggestions": ["Giganotosaurus", "Wyvern", "Mek (if available)"],
-    "homeSuggestions": ["Tek Base", "Sky Base", "Endgame Fortress"]
+    "objectives": [
+      "Tame a Giganotosaurus — the Island's apex predator and a serious late-game combat tame",
+      "Start a breeding program: raise babies from your best-stat tames and imprint on them for combat bonuses",
+      "Craft Tek engrams as they unlock from boss kills — a Tek Chestpiece or Tek Rifle are good first picks",
+      "Clear all three Guardians so the Overseer fight (the gateway to full Tek-tier progression) opens up"
+    ],
+    "tameSuggestions": ["Giganotosaurus", "Quetzalcoatlus", "Yutyrannus"],
+    "homeSuggestions": ["Endgame Fortress", "Sky Base", "Tek Base"]
   },
   "70": {
-    "objectives": ["Master Tek gameplay", "Collect all artifacts", "Defeat all bosses on Alpha", "Achieve final ascension"],
-    "tameSuggestions": ["Giganotosaurus", "Wyvern", "Mana", "Reaper"],
+    "objectives": [
+      "Build out a proper Tek base as more Tekgrams unlock from repeated boss kills",
+      "Work toward a full Tek or Riot Armor set for survivability",
+      "Breed for mutations to push your lines' stats past what wild tames offer",
+      "Start gathering a small team (plus Cannons) to tame one of the Island's rare wandering Titanosaurs"
+    ],
+    "tameSuggestions": ["Giganotosaurus", "Titanosaur", "Rex"],
     "homeSuggestions": ["Tek Base", "Endgame Fortress"]
   },
   "75": {
-    "objectives": ["Master mutation breeding", "Build a Tek underwater base", "Complete all explorer notes", "Achieve 100% completion"],
-    "tameSuggestions": ["Giganotosaurus", "Titan", "Wyvern"],
+    "objectives": [
+      "Step boss difficulty up to Beta, then Alpha, as your breeding lines and saddles improve",
+      "Fill out your Explorer Note collection for the lore and stat bonuses",
+      "Keep refining mutations for health and melee on your main boss-fighting species",
+      "Build a dedicated underwater Tek base if deep-sea resources matter to you"
+    ],
+    "tameSuggestions": ["Giganotosaurus", "Titanosaur", "Mosasaurus"],
     "homeSuggestions": ["Tek Base", "Underwater Tek Base"]
   },
   "80": {
-    "objectives": ["Master all boss fights on Alpha", "Hoard element for Tek", "Build the ultimate base", "Prepare for Genesis content"],
-    "tameSuggestions": ["Titan", "Giganotosaurus", "Mek"],
+    "objectives": [
+      "Take on the Alpha Guardians once your tames and saddles can handle the jump in difficulty",
+      "Stockpile Element from boss kills for Tek gear and Tek structures",
+      "Keep expanding your base into a fully self-sufficient fortress",
+      "Mentor newer tribemates if you're playing on a multiplayer server"
+    ],
+    "tameSuggestions": ["Giganotosaurus", "Titanosaur", "Rex"],
     "homeSuggestions": ["Ultimate Base"]
   },
   "85": {
-    "objectives": ["Master Tek gear usage", "Explore all biomes thoroughly", "Help tribemates progress"],
-    "tameSuggestions": ["Giganotosaurus", "Wyvern", "Bloodstalker", "Mana"],
+    "objectives": [
+      "Round out your Tek gear — Tek Boots, Tek Helmet, and a Tek Saddle for your best tame",
+      "Thoroughly explore every biome on the map for anything you've missed",
+      "Keep breeding and imprinting to strengthen your boss-fighting army",
+      "Start planning your first Ascension attempt — clearing the Overseer grants permanent character bonuses"
+    ],
+    "tameSuggestions": ["Giganotosaurus", "Rex", "Yutyrannus"],
     "homeSuggestions": ["Ultimate Base"]
   },
   "90": {
-    "objectives": ["Max out all Tek engrams", "Ascend fully"],
-    "tameSuggestions": ["Voidwyrm", "Astrodelphis", "Giganotosaurus"],
+    "objectives": [
+      "Max out your Tek engrams as they become available",
+      "Push toward Ascension by clearing the Overseer on Gamma, then Beta, then Alpha",
+      "Keep a strong, bred, and imprinted army ready for each Ascension attempt",
+      "Start thinking about what a 'finished' base and tame roster looks like for your playstyle"
+    ],
+    "tameSuggestions": ["Giganotosaurus", "Rex", "Quetzalcoatlus"],
     "homeSuggestions": ["Ultimate Base"]
   },
   "95": {
-    "objectives": ["Achieve max level", "Complete entire tech tree", "Build a showcase base", "Create museum of tames", "Guide newer players"],
-    "tameSuggestions": ["All available"],
+    "objectives": [
+      "Polish your base into a showcase — defensive, functional, and organized",
+      "Build a pen or museum area to show off your best-stat tames",
+      "Help newer players learn the mechanics you've mastered",
+      "Fill in any remaining Explorer Notes or achievements"
+    ],
+    "tameSuggestions": ["All available (base-game Island creatures)"],
     "homeSuggestions": ["Anywhere"]
   },
   "100": {
-    "objectives": ["Congratulations on level 100!", "You have mastered ARK", "Build a monument to your journey", "Collect every item in the game", "Prepare for the next Ark"],
-    "tameSuggestions": ["All available"],
+    "objectives": [
+      "Congratulations — you've completed the core Island progression",
+      "Keep breeding, mutating, and refining your lines if you want to keep growing",
+      "Try a harder difficulty setting or a fresh server run for a new challenge",
+      "Reflect on the trip from a beach with a Stone Pick to a Tek-armored survivor commanding Gigas"
+    ],
+    "tameSuggestions": ["All available (base-game Island creatures)"],
     "homeSuggestions": ["Everywhere"]
   }
 }
