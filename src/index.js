@@ -22,22 +22,43 @@ for (const file of commandFiles) {
 
 const dataLoader = require('./utils/dataLoader');
 const configManager = require('./utils/configManager');
-client.data = dataLoader.loadAll();
-configManager.load(client.data);
+client.baseData = dataLoader.loadAll();
+
+const legacyPath = path.join(__dirname, '../data/overrides.json');
+if (fs.existsSync(legacyPath) && process.env.GUILD_ID) {
+  try {
+    const legacyOverrides = JSON.parse(fs.readFileSync(legacyPath, 'utf8'));
+    if (Object.keys(legacyOverrides).length > 0) {
+      const guildFile = path.join(__dirname, '../data/guilds', `${process.env.GUILD_ID}.json`);
+      if (!fs.existsSync(guildFile)) {
+        fs.mkdirSync(path.join(__dirname, '../data/guilds'), { recursive: true });
+        fs.writeFileSync(guildFile, JSON.stringify(legacyOverrides, null, 2), 'utf8');
+        console.log(`Migrated legacy overrides to data/guilds/${process.env.GUILD_ID}.json`);
+      }
+    }
+  } catch {}
+}
 
 require('./keepalive');
 
-client.once('clientReady', () => {
+client.once('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
   registerCommands(client);
 });
 
 client.on('interactionCreate', async interaction => {
+  if (!interaction.inGuild()) {
+    return interaction.reply({ content: 'This bot only works in servers.', flags: MessageFlags.Ephemeral });
+  }
+
+  const calculators = configManager.applyOverrides(interaction.guildId, client.baseData.calculators);
+  const guildData = { ...client.baseData, calculators };
+
   if (interaction.isAutocomplete()) {
     const command = client.commands.get(interaction.commandName);
     if (!command?.autocomplete) return;
     try {
-      await command.autocomplete(interaction, client.data);
+      await command.autocomplete(interaction, guildData);
     } catch (error) {
       console.error('Autocomplete error:', error);
     }
@@ -50,7 +71,7 @@ client.on('interactionCreate', async interaction => {
   if (!command) return;
 
   try {
-    await command.execute(interaction, client.data);
+    await command.execute(interaction, guildData);
   } catch (error) {
     console.error(error);
     if (!interaction.replied && !interaction.deferred) {

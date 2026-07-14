@@ -1,7 +1,7 @@
 const path = require('node:path');
 const fs = require('node:fs');
 
-const overridesPath = path.join(__dirname, '../../data/overrides.json');
+const guildsDir = path.join(__dirname, '../../data/guilds');
 
 const CONFIGURABLE_KEYS = {
   tamingSpeedMultiplier: { type: 'number', default: 1, path: ['tamingFormulas', 'tamingSpeedMultiplier'], label: 'Taming Speed' },
@@ -11,22 +11,29 @@ const CONFIGURABLE_KEYS = {
   kibbleEffectiveness: { type: 'number', default: 0.5, path: ['tamingFormulas', 'kibbleEffectiveness'], label: 'Kibble Effectiveness' },
 };
 
-function readOverrides() {
+function guildPath(guildId) {
+  return path.join(guildsDir, `${guildId}.json`);
+}
+
+function readOverrides(guildId) {
+  const filePath = guildPath(guildId);
   try {
-    if (fs.existsSync(overridesPath)) {
-      return JSON.parse(fs.readFileSync(overridesPath, 'utf8'));
+    if (fs.existsSync(filePath)) {
+      return JSON.parse(fs.readFileSync(filePath, 'utf8'));
     }
   } catch { }
   return {};
 }
 
-function writeOverrides(overrides) {
-  fs.writeFileSync(overridesPath, JSON.stringify(overrides, null, 2), 'utf8');
+function writeOverrides(guildId, overrides) {
+  const filePath = guildPath(guildId);
+  fs.mkdirSync(guildsDir, { recursive: true });
+  fs.writeFileSync(filePath, JSON.stringify(overrides, null, 2), 'utf8');
 }
 
-function load(data) {
-  const overrides = readOverrides();
-  const calculators = data.calculators;
+function applyOverrides(guildId, baseCalculators) {
+  const overrides = readOverrides(guildId);
+  const calculators = JSON.parse(JSON.stringify(baseCalculators));
   for (const [key, config] of Object.entries(CONFIGURABLE_KEYS)) {
     if (overrides[key] !== undefined) {
       let target = calculators;
@@ -36,25 +43,26 @@ function load(data) {
       target[config.path.at(-1)] = overrides[key];
     }
   }
-  return overrides;
+  return calculators;
 }
 
-function set(key, value) {
+function set(guildId, key, value) {
   const config = CONFIGURABLE_KEYS[key];
   if (!config) throw new Error(`Unknown config key. Valid: ${Object.keys(CONFIGURABLE_KEYS).join(', ')}`);
   const num = Number(value);
   if (config.type === 'number' && (Number.isNaN(num) || num < 0)) throw new Error('Value must be a positive number.');
-  const overrides = readOverrides();
+  const overrides = readOverrides(guildId);
   overrides[key] = num;
-  writeOverrides(overrides);
+  writeOverrides(guildId, overrides);
   return { key, value: num, label: config.label };
 }
 
-function getAll(data) {
-  const overrides = readOverrides();
+function getAll(guildId, baseCalculators) {
+  const overrides = readOverrides(guildId);
+  const calculators = applyOverrides(guildId, baseCalculators);
   const result = [];
   for (const [key, config] of Object.entries(CONFIGURABLE_KEYS)) {
-    let current = data.calculators;
+    let current = calculators;
     for (const segment of config.path) current = current[segment];
     result.push({
       key,
@@ -67,4 +75,19 @@ function getAll(data) {
   return result;
 }
 
-module.exports = { load, set, getAll, CONFIGURABLE_KEYS };
+function getFeature(guildId, key) {
+  const overrides = readOverrides(guildId);
+  return overrides[key] ?? null;
+}
+
+function setFeature(guildId, key, value) {
+  const overrides = readOverrides(guildId);
+  overrides[key] = value;
+  writeOverrides(guildId, overrides);
+}
+
+function getAllOverrides(guildId) {
+  return readOverrides(guildId);
+}
+
+module.exports = { applyOverrides, set, getAll, getFeature, setFeature, getAllOverrides, CONFIGURABLE_KEYS };
